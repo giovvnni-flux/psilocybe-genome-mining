@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+ncbi_dataset.zip
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+ncbi_dataset.zip
+psilocybe_penvy/
+blast_db/
