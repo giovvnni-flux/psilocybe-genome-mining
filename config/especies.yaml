@@ -1,0 +1,9 @@
+especies:
+  psilocybe_cubensis:
+    nombre_cientifico: "Psilocybe cubensis"
+    accession: "GCF_017499595.1"
+    genes_interes:
+      PsiD: "P0DPA6"
+      PsiH: "P0DPA7"
+      PsiK: "P0DPA8"
+      PsiM: "P0DPA9"

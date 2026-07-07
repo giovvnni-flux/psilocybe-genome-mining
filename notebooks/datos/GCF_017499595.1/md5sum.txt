@@ -1,0 +1,5 @@
+830c9838a54a15ff1b8dff35f87819c3  ncbi_dataset/data/assembly_data_report.jsonl
+69ecef597c94147c20622a39c8b63eb4  ncbi_dataset/data/GCF_017499595.1/GCF_017499595.1_MGC_Penvy_1_genomic.fna
+3c382524d2f94cdf96dab19abe11a191  ncbi_dataset/data/GCF_017499595.1/genomic.gff
+02a163ff547fc72cc22ebcfbf11e3c43  ncbi_dataset/data/GCF_017499595.1/protein.faa
+a71ccd93fa6732e51597c15d21a41da3  ncbi_dataset/data/dataset_catalog.json
