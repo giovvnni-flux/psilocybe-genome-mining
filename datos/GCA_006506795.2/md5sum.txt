@@ -1,3 +1,0 @@
-ab40bfc6c41fa3133afe2e4d1e6fc6dd  ncbi_dataset/data/assembly_data_report.jsonl
-b25323f406bfcf919f11d53bff43d020  ncbi_dataset/data/GCA_006506795.2/GCA_006506795.2_HeCS-4_2.0_genomic.fna
-a08af246a866174c4ba2535effa96434  ncbi_dataset/data/dataset_catalog.json
