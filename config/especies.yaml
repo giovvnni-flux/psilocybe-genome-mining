@@ -1,9 +1,17 @@
 especies:
   psilocybe_cubensis:
-    nombre_cientifico: "Psilocybe cubensis"
-    accession: "GCF_017499595.1"
+    nombre_cientifico: Psilocybe cubensis
+    accession: GCF_017499595.1
     genes_interes:
-      PsiD: "P0DPA6"
-      PsiH: "P0DPA7"
-      PsiK: "P0DPA8"
-      PsiM: "P0DPA9"
+      PsiD: P0DPA6
+      PsiH: P0DPA7
+      PsiK: P0DPA8
+      PsiM: P0DPA9
+  cordyceps_militaris:
+    nombre_cientifico: Cordyceps militaris
+    accession: GCA_008080495.1
+    genes_interes:
+      Cns1: G3JF08
+      Cns2: G3JF09
+      Cns3: G3JF10
+      Cns4: G3JF11

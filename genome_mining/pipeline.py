@@ -39,13 +39,14 @@ def analizar_especie(nombre_especie, config_path="config/especies.yaml", carpeta
     print("Corriendo BLAST...")
     resultados = correr_blast(ruta_referencias, ruta_db, carpeta_especie / "blast_resultados.tsv")
 
-    matches_perfectos = resultados[resultados["identidad"] == 100.0]
-    print(f"Se encontraron {len(matches_perfectos)} matches con 100% de identidad")
+    # Para cada gen de referencia, tomamos el mejor hit disponible (mayor identidad)
+    mejores_hits = resultados.sort_values("identidad", ascending=False).drop_duplicates(subset="query")
+    print(f"Se encontraron {len(mejores_hits)} genes con al menos un match")
+    print(mejores_hits[["query", "hit", "identidad"]])
 
-    # Mapear nombre de gen -> accession de proteína encontrado, usando la columna 'query'
     accesiones_encontradas = {}
-    for _, fila in matches_perfectos.iterrows():
-        nombre_gen = fila["query"].split("|")[1]  # extrae el accession UniProt del query
+    for _, fila in mejores_hits.iterrows():
+        nombre_gen = fila["query"].split("|")[1]
         for nombre, accession_uniprot in datos["genes_interes"].items():
             if accession_uniprot == nombre_gen:
                 accesiones_encontradas[nombre] = fila["hit"]
@@ -61,3 +62,52 @@ def analizar_especie(nombre_especie, config_path="config/especies.yaml", carpeta
     )
 
     return coordenadas
+
+def agregar_especie(nombre_cientifico, genes_interes=None, config_path="config/especies.yaml"):
+    """
+    Agrega (o actualiza) una especie en el archivo de configuración YAML.
+    Busca automáticamente el mejor accession de genoma disponible en NCBI.
+
+    nombre_cientifico: ej. 'Cordyceps militaris'
+    genes_interes: diccionario {nombre_gen: accession_uniprot}, opcional
+    """
+    import subprocess
+    import json
+
+    # Generar la clave automáticamente a partir del nombre científico
+    clave = nombre_cientifico.lower().replace(" ", "_")
+
+    # Buscar automáticamente el mejor accession disponible
+    resultado = subprocess.run(
+        ["datasets", "summary", "genome", "taxon", nombre_cientifico],
+        capture_output=True, text=True, check=True
+    )
+    data = json.loads(resultado.stdout)
+
+    if not data.get("reports"):
+        raise ValueError(f"No se encontraron genomas para '{nombre_cientifico}' en NCBI")
+
+    # Elegir el ensamblaje con mejor N50 (más contiguo = mejor calidad)
+    mejor = max(data["reports"], key=lambda r: r.get("assembly_stats", {}).get("contig_n50", 0))
+    accession = mejor["current_accession"]
+
+    print(f"Accession seleccionado automáticamente: {accession} (N50: {mejor['assembly_stats'].get('contig_n50'):,} bp)")
+
+    config_path = Path(config_path)
+    if config_path.exists():
+        with open(config_path) as f:
+            config = yaml.safe_load(f) or {"especies": {}}
+    else:
+        config = {"especies": {}}
+
+    config["especies"][clave] = {
+        "nombre_cientifico": nombre_cientifico,
+        "accession": accession,
+        "genes_interes": genes_interes or {},
+    }
+
+    with open(config_path, "w") as f:
+        yaml.dump(config, f, allow_unicode=True, sort_keys=False)
+
+    print(f"Especie '{clave}' agregada/actualizada en {config_path}")
+    return clave
