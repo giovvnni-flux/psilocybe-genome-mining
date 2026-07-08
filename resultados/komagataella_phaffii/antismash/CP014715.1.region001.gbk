@@ -1,0 +1,1723 @@
+LOCUS       CP014715.1             31065 bp    DNA              UNK 01-JAN-1980
+DEFINITION  CP014715.1 Komagataella phaffii GS115 chromosome 1, partial
+            sequence.
+ACCESSION   CP014715
+VERSION     CP014715.1
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+COMMENT     ##antiSMASH-Data-START##
+            Version     :: 8.0.4
+            Run date    :: 2026-07-08 23:17:36
+            NOTE :: This is a single region extracted from a larger record!
+            Orig. start :: 1976274
+            Orig. end   :: 2007339
+            ##antiSMASH-Data-END##
+FEATURES             Location/Qualifiers
+     region          1..31065
+                     /candidate_cluster_numbers="1"
+                     /contig_edge="False"
+                     /product="terpene-precursor"
+                     /region_number="1"
+                     /rules="(PT_FPPS_like and not PT_HPP)"
+                     /tool="antismash"
+     cand_cluster    1..31065
+                     /candidate_cluster_number="1"
+                     /contig_edge="False"
+                     /detection_rules="(PT_FPPS_like and not PT_HPP)"
+                     /kind="single"
+                     /product="terpene-precursor"
+                     /protoclusters="1"
+                     /tool="antismash"
+     protocluster    1..31065
+                     /aStool="rule-based-clusters"
+                     /category="terpene"
+                     /contig_edge="False"
+                     /core_location="[15000:16065](-)"
+                     /cutoff="10000"
+                     /detection_rule="(PT_FPPS_like and not PT_HPP)"
+                     /neighbourhood="15000"
+                     /product="terpene-precursor"
+                     /protocluster_number="1"
+                     /tool="antismash"
+     proto_core      complement(15001..16065)
+                     /aStool="rule-based-clusters"
+                     /tool="antismash"
+                     /cutoff="10000"
+                     /detection_rule="(PT_FPPS_like and not PT_HPP)"
+                     /neighbourhood="15000"
+                     /product="terpene-precursor"
+                     /protocluster_number="1"
+     mRNA            complement(507..1676)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01881T0"
+                     /Parent="gene-AT250_GQ6801881"
+                     /end_range="1977950"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="YPL041C"
+                     /locus_tag="AT250_GQ6801881"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01881T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01881T0"
+                     /partial="true"
+                     /product="GQ68_01881T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1976781"
+     exon            complement(507..1676)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01881T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01881T0"
+                     /end_range="1977950"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="YPL041C"
+                     /locus_tag="AT250_GQ6801881"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01881T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01881T0"
+                     /partial="true"
+                     /product="GQ68_01881T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1976781"
+     gene            complement(507..1676)
+                     /ID="gene-AT250_GQ6801881"
+                     /Name="YPL041C"
+                     /end_range="1977950"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="YPL041C"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801881"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1976781"
+     CDS             complement(629..1309)
+                     /Dbxref="NCBI_GP:AOA65412.1"
+                     /ID="cds-AOA65412.1"
+                     /Name="AOA65412.1"
+                     /gbkey="CDS"
+                     /gene="YPL041C"
+                     /locus_tag="AT250_GQ6801881"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01881T0"
+                     /phase="0"
+                     /product="GQ68_01881T0"
+                     /protein_id="AOA65412.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MMMLTPRVHLPLLRRAGCSRPPLTRPFSLSPSCLLLYKKTTPPQE
+                     TKEPPSEVKPVSNEERLMQNKYYRRCPRFFRPYIGEFITSPVKFGVSFVILHEITAIVP
+                     FISFWYLMMKYDWIPLDLPQEFLTRGTEIISKKLNDMDQQRLGSLFDKTKLIMSGANAY
+                     AMTKMLLPFRVPLCFLLTPWFERWVVNPIMRLFKREKKQGKKELWEMDELKKSQKKSLE
+                     KPRL"
+     mRNA            1893..2630
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01880T0"
+                     /Parent="gene-AT250_GQ6801880"
+                     /end_range="1978904"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="AT250_GQ6801880"
+                     /locus_tag="AT250_GQ6801880"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01880T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01880T0"
+                     /partial="true"
+                     /product="GQ68_01880T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978167"
+     exon            1893..2630
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01880T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01880T0"
+                     /end_range="1978904"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="AT250_GQ6801880"
+                     /locus_tag="AT250_GQ6801880"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01880T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01880T0"
+                     /partial="true"
+                     /product="GQ68_01880T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978167"
+     gene            1893..2630
+                     /ID="gene-AT250_GQ6801880"
+                     /Name="AT250_GQ6801880"
+                     /end_range="1978904"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801880"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978167"
+     CDS             1893..2630
+                     /Dbxref="NCBI_GP:AOA65436.1"
+                     /ID="cds-AOA65436.1"
+                     /Name="AOA65436.1"
+                     /gbkey="CDS"
+                     /gene="AT250_GQ6801880"
+                     /locus_tag="AT250_GQ6801880"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01880T0"
+                     /phase="0"
+                     /product="GQ68_01880T0"
+                     /protein_id="AOA65436.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MVVSSGIQLPYFTTNSASIEPTHTKNTRTFKLNNSNKSEVKNFLA
+                     ESESGSSSASDESALPDLVYDDNDINSYKYKEKSFLISVIVSYVSKTLADLFSISLENS
+                     TCRCGCVDYSTLRLFITEIVRRSQTSLHGFKMSTIYLLRFHQVLQYMSEHYVVPDSLCL
+                     KIIALCSFMLTSTNISNQPVDFNHWQLISGLSEARLKSEFRQFIGLLTENYDDHKSLVV
+                     TTNEFHDLNLKLKEAICACVQVI"
+     mRNA            complement(2276..4479)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01879T0"
+                     /Parent="gene-AT250_GQ6801879"
+                     /end_range="1980753"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="COY1"
+                     /locus_tag="AT250_GQ6801879"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01879T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01879T0"
+                     /partial="true"
+                     /product="GQ68_01879T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978550"
+     exon            complement(2276..4479)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01879T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01879T0"
+                     /end_range="1980753"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="COY1"
+                     /locus_tag="AT250_GQ6801879"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01879T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01879T0"
+                     /partial="true"
+                     /product="GQ68_01879T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978550"
+     gene            complement(2276..4479)
+                     /ID="gene-AT250_GQ6801879"
+                     /Name="COY1"
+                     /end_range="1980753"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="COY1"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801879"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1978550"
+     CDS             complement(2667..4448)
+                     /Dbxref="NCBI_GP:AOA66320.1"
+                     /ID="cds-AOA66320.1"
+                     /Name="AOA66320.1"
+                     /gbkey="CDS"
+                     /gene="COY1"
+                     /locus_tag="AT250_GQ6801879"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01879T0"
+                     /phase="0"
+                     /product="GQ68_01879T0"
+                     /protein_id="AOA66320.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MTDADFQVVFEAWQAVDLQGVKKLVDDEAKEIESSKSSSLDQRKQ
+                     LSFKTKEFKKLDDERKLTQWRSLLKEYQNYIDDLTKGNNRVVQTFLELHKVVVDLKDPT
+                     STLSKEQETNTELQKAVKKLSTELRHSEQHWASEKKGLEEKFNVQIKETEEKSLDQIKT
+                     AQTEIVQLRDELKQKSSENEELQVVIETLDAKLKKNSQGQNNDDTYSNYDMLNRDLESN
+                     KLKILELERLNNSLKEELAKKDDKAYQERVTELEKESVEYLSKLEEERLNKRNAIKSLK
+                     DELDRTKEALNEKIEECARLNSSLEEKNDYEQIKQDLKVLKLIELGEGEEEELTGTLDN
+                     ILLNKNKKLSNELVSYRSKQEDMVNSIQELEEKLAFSQKQVEQLQQLNQDLEKETSVEK
+                     WDAISMISARPDTSIQDNSLITMVSQQRDRFKQRNKDLEKDVRLQLNKISELQRKVQSL
+                     SSDNNQLYERIRFLSSYDSNKNQSKESQSEEYYKRSYEDKLHPIEQFRLAESKRISSRI
+                     SPMERIFISLIRAILSTKLSRYLFLAYCISLHLIVMSMTMYVMNIHNDLSPEITINEGA
+                     SVGGANAGGIHGGLGNV"
+     mRNA            complement(4581..7210)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01878T0"
+                     /Parent="gene-AT250_GQ6801878"
+                     /end_range="1983484"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="SWI3"
+                     /locus_tag="AT250_GQ6801878"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01878T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01878T0"
+                     /partial="true"
+                     /product="GQ68_01878T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1980855"
+     exon            complement(4581..7210)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01878T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01878T0"
+                     /end_range="1983484"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="SWI3"
+                     /locus_tag="AT250_GQ6801878"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01878T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01878T0"
+                     /partial="true"
+                     /product="GQ68_01878T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1980855"
+     gene            complement(4581..7210)
+                     /ID="gene-AT250_GQ6801878"
+                     /Name="SWI3"
+                     /end_range="1983484"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="SWI3"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801878"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1980855"
+     CDS             complement(4635..7049)
+                     /Dbxref="NCBI_GP:AOA66785.1"
+                     /ID="cds-AOA66785.1"
+                     /Name="AOA66785.1"
+                     /gbkey="CDS"
+                     /gene="SWI3"
+                     /locus_tag="AT250_GQ6801878"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01878T0"
+                     /phase="0"
+                     /product="GQ68_01878T0"
+                     /protein_id="AOA66785.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MSLNELQAEPKDKDPIISQDSDSSMADAIEDGNVPEPGERDSLSR
+                     SRSRSDSEIEEDQAVRVDGRNQNGEQVVEAITSDVANDEQRLPNPISLKKSPSEPVLEA
+                     DIHVKQENESQAESDDKSQGTPEQEEPSQSQTQRITHTEQENRSAEPKQELGSKSELEE
+                     LEPELSVQGPKSNGSATKKGTPEEKSVFRPSASSDESTAEGTPIASPKVTDDVSSKPIF
+                     DDKVNASSSKASPKTTPKAATPKESHKPTPVLDADEDENLEDDKTDYVKAEVVERPLPE
+                     DKPQTHTIVIPSYSTWFSLRRVSDIEKKSLPEFFNNVNKHKTEALYIKYRNFMVNTYRM
+                     NPNEYLTVTACRRNLIGDAGTIMRVHRFLNRWGLINYQVNAELRPQNINPVSTESYRID
+                     YDTPRGLFPFETYKPPTKLPDLTHIKKLLRSDDVETTTNEPPKKKVKLFTEPDKNQGWN
+                     EEKLGKLFEGIKQYGNNWNQIAQHVGDKTPEQCILRFLELPIEDKFLEENPQLLGPLKY
+                     IPRLPFSPVDNPVMSTLAFLATLVDHSVASAASTRAIRAIEKIIVNKIELKEDKSKEEP
+                     QGETTDKETNTIKSERKQSTDDTEKSPRTNTPSEIKPTSEKEKEENKEEVLEKPAENVK
+                     EREDPLEDIKDAGVNSFGIVASRAHVFATYEERELHKHIISLVNQQMKLVDIKLAKVSK
+                     LEKEFEFKKKKLKVQQERNFLERISLSKSTGQVHDKLMEAVNLLENCDSSEKIKSILDE
+                     AKELALKPSNIETIVRKIGANDANPDGTKDRDDSVKPISLDSPQLYRYWSG"
+     mRNA            7632..9596
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01877T0"
+                     /Parent="gene-AT250_GQ6801877"
+                     /end_range="1985870"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="ATG7"
+                     /locus_tag="AT250_GQ6801877"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01877T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01877T0"
+                     /partial="true"
+                     /product="GQ68_01877T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1983906"
+     exon            7632..9596
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01877T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01877T0"
+                     /end_range="1985870"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="ATG7"
+                     /locus_tag="AT250_GQ6801877"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01877T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01877T0"
+                     /partial="true"
+                     /product="GQ68_01877T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1983906"
+     gene            7632..9596
+                     /ID="gene-AT250_GQ6801877"
+                     /Name="ATG7"
+                     /end_range="1985870"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="ATG7"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801877"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1983906"
+     CDS             7632..9596
+                     /Dbxref="NCBI_GP:AOA65991.1"
+                     /ID="cds-AOA65991.1"
+                     /Name="AOA65991.1"
+                     /gbkey="CDS"
+                     /gene="ATG7"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) ThiF"
+                     /gene_kind="biosynthetic-additional"
+                     /locus_tag="AT250_GQ6801877"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01877T0"
+                     /phase="0"
+                     /product="GQ68_01877T0"
+                     /protein_id="AOA65991.1"
+                     /sec_met_domain="ThiF (E-value: 2.8e-44, bitscore: 147.8,
+                     seeds: 54, tool: rule-based-clusters)"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MTSMDIPYSQISSFVNSSFFQKLSQLKLNKYRLDDTDKAIVGSVD
+                     FKFIGKNQPTSLSVDESSFNDNITYTHAQFPVKGILKNLNTVEDFRKVDKNEFLQSQGL
+                     VVHKSIQDRSCLKDLSKLTQFFILSFSDLKGFKFIYWFGFPSLVSRWKVNKLSGLTESQ
+                     IEPYESKLNEWLNARLPIEQKQAFIIDNLEFKPFEQLSSFSPDDQLSIGFIDTSSILNK
+                     CSTQLRNILYMLAYYGFENIKVYNFRFNNTTSFTLDITLAEPLTSEPKTTGWERTAQGK
+                     LGPKLADIGALVDPARLADQSVDLNLKLMKWRVMPELDLDIIKNSKVLLLGAGTLGSYV
+                     SRVLLGYGVRHITFVDNGKVSFSNPVRQPLFNFTDCLEGGAPKAETAAKALKLIFPLIT
+                     SQGYNLEVPMAGHPVTDEKRQYEDYQRLVTLIKEHDVVFLLMDSRETRWLPTVLCNVFD
+                     KICITAALGFDSYLVMRHGNLFNTEHIEAEENSHRLGCYFCNDIIAPKDSTTDRTLDQM
+                     CTVTRPGVALLASSLAAELFVSILQHPLKSHAPASLHDNATVLGCLPQQLRGFLHNFET
+                     SKLEANNYEYCSACSIQVLNEYKSRTWDFVKDALNENNYLEDLTGLTKVKQESEIAEKK
+                     FQEFENGLEFSDEDSEWIN"
+     mRNA            complement(9167..11809)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01876T0"
+                     /Parent="gene-AT250_GQ6801876"
+                     /end_range="1988083"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="SDA1"
+                     /locus_tag="AT250_GQ6801876"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01876T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01876T0"
+                     /partial="true"
+                     /product="GQ68_01876T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1985441"
+     exon            complement(9167..11809)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01876T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01876T0"
+                     /end_range="1988083"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="SDA1"
+                     /locus_tag="AT250_GQ6801876"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01876T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01876T0"
+                     /partial="true"
+                     /product="GQ68_01876T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1985441"
+     gene            complement(9167..11809)
+                     /ID="gene-AT250_GQ6801876"
+                     /Name="SDA1"
+                     /end_range="1988083"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="SDA1"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801876"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1985441"
+     CDS             complement(9646..11787)
+                     /Dbxref="NCBI_GP:AOA65704.1"
+                     /ID="cds-AOA65704.1"
+                     /Name="AOA65704.1"
+                     /gbkey="CDS"
+                     /gene="SDA1"
+                     /locus_tag="AT250_GQ6801876"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01876T0"
+                     /phase="0"
+                     /product="GQ68_01876T0"
+                     /protein_id="AOA65704.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MVRRQRAAILPNNIILLQNLVRRDPKSYEEEFLQQYSHYQSLRDI
+                     YLSDANSGNEGADEFGELIGFVSSVCQCFPQETKQFPSDLNSLLINNYKELDVDLREKI
+                     IQCLVMLRNKDVISPEFLIQTIFPLLISQETSIANIKQLRKQIYQTLISLLKAVNVGSK
+                     NQKLNRSTQALLFNLLEQQTTQGLWATRLTRELWRRGIWDDSRTVEIMTHAALHPDVKV
+                     SIAGVKFFLGADKERDEAQDSDDDEEPDLAQLKHQAQITKKTGKKAKKLETALKTLKKK
+                     GSAKHSATYLNFSAIHLLRDPQGFADELFSKQLQGKRANKYSLEQKIDIVNLISRLIGT
+                     HKLTCLGIYTFLLKFLTPKQQDVTQFMAAAAQASHDLVPPESITIVVKKIADEFISDGV
+                     ATEVAAAGLNTVREILARAPLAIDADLLQDLTEYKGSKAKSVMMAARSLITLYREVAPE
+                     MLARKDRGKEASMGMKSGSRKGLPQFGLDSALTNTNDLALLAKWKEEHKDEDKVGDEWE
+                     VEEEEEEESDEGEWVNVDDDTEAKTSGKKRAYEDDDSDLELSDDERNTDKNKNSDKDSN
+                     MDQVQKLLSSDILTPADFAKLHELKTKAGVEKIMGQSIFGLNEQHVDSSKLVGSTKYKQ
+                     NKEERLAHVKAGRDEDAHGSRRGKREGEHSTTNKEKARKKNFLMTIHKRGVQSKQKMAL
+                     RDKQKVLRAHIDKQKKKGH"
+     mRNA            complement(11905..14270)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01875T0"
+                     /Parent="gene-AT250_GQ6801875"
+                     /end_range="1990544"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="NNK1"
+                     /locus_tag="AT250_GQ6801875"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01875T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01875T0"
+                     /partial="true"
+                     /product="GQ68_01875T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1988179"
+     exon            complement(11905..14270)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01875T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01875T0"
+                     /end_range="1990544"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="NNK1"
+                     /locus_tag="AT250_GQ6801875"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01875T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01875T0"
+                     /partial="true"
+                     /product="GQ68_01875T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1988179"
+     gene            complement(11905..14270)
+                     /ID="gene-AT250_GQ6801875"
+                     /Name="NNK1"
+                     /end_range="1990544"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="NNK1"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801875"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1988179"
+     CDS             complement(11975..14170)
+                     /Dbxref="NCBI_GP:AOA66675.1"
+                     /ID="cds-AOA66675.1"
+                     /Name="AOA66675.1"
+                     /gbkey="CDS"
+                     /gene="NNK1"
+                     /gene_functions="biosynthetic-additional
+                     (rule-based-clusters) Pkinase"
+                     /gene_functions="regulatory (smcogs) SMCOG1030:
+                     serine/threonine protein kinase"
+                     /gene_kind="regulatory"
+                     /locus_tag="AT250_GQ6801875"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01875T0"
+                     /phase="0"
+                     /product="GQ68_01875T0"
+                     /protein_id="AOA66675.1"
+                     /sec_met_domain="Pkinase (E-value: 2.2e-20, bitscore: 69.6,
+                     seeds: 54, tool: rule-based-clusters)"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MAGSKLTFAKDLDIPLKSKPTIASTVNYTPIKPSLVPYNKNNSFT
+                     TLSTEDRNPAELADIDPNNANGNNQKILYGGFTEKDSKIEDDKDGDYTSVNYYHGSSSI
+                     KGMEDEYVPNYEFNQDILKNWFSSQDLANENVEKKRNLEDDVLKELHSQAIPISVPKNH
+                     KKRDMEKKVDAKKIDEWNEPVDIDKLSQLIGSPPRDFDEKILNEIPFNFQEFSFSERKK
+                     FLTKIIPSELRNNDYKNHLTKLIKAKFKSKGNNLSSSSSLSSKKASPAMLFLNNMSSKV
+                     RVTMDKNGLPSRTDLSNEPVPPNSNRLGSVVMGYKLGNVIGFGAWGTVRECCKYTGVAS
+                     IADSTTTSRAASYAPSRRSSLALSFVLDPKSQQFRSNYSNPPASGYTNAMKITSCGSES
+                     LMNEFLREIKVWEKMNHPNLLPLLNWTQANGNIFALTIKCSGGTLFDLVDFWSHSSPDQ
+                     AVIRKYMIDIANALQYMHGLDYIHGDVKLENCLLDITISYHELTKDNCGNCILCDFGMA
+                     RSLEDIKIERKVNVRNKASFHIGTPPRRGRSKTPTLSLGRTLSSKEVVSELSSQLQKIK
+                     DQQNYSSSETLTSADTSPNASLPKLYRNSASPEKSPSIHPLPDCNIGSLPYAAPELLVD
+                     PDCPRCYLSKESDIWSLGVMIYTMISGKLPFTNSSDEVLKELIKKGDVDYSIAESRGKE
+                     FTPLVNIVKGCLKGDPKERFTLKEILDRLLATDAPFG"
+     mRNA            14313..15000
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01874T0"
+                     /Parent="gene-AT250_GQ6801874"
+                     /end_range="1991274"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="AT250_GQ6801874"
+                     /locus_tag="AT250_GQ6801874"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01874T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01874T0"
+                     /partial="true"
+                     /product="GQ68_01874T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1990587"
+     exon            14313..15000
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01874T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01874T0"
+                     /end_range="1991274"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="AT250_GQ6801874"
+                     /locus_tag="AT250_GQ6801874"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01874T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01874T0"
+                     /partial="true"
+                     /product="GQ68_01874T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1990587"
+     gene            14313..15000
+                     /ID="gene-AT250_GQ6801874"
+                     /Name="AT250_GQ6801874"
+                     /end_range="1991274"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801874"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1990587"
+     CDS             14526..14870
+                     /Dbxref="NCBI_GP:AOA65613.1"
+                     /ID="cds-AOA65613.1"
+                     /Name="AOA65613.1"
+                     /gbkey="CDS"
+                     /gene="AT250_GQ6801874"
+                     /locus_tag="AT250_GQ6801874"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01874T0"
+                     /phase="0"
+                     /product="GQ68_01874T0"
+                     /protein_id="AOA65613.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MASNIIREILLPSTYPKTTLRMAGHPGAYMGWWGFIGSPKQKNVT
+                     TYTISPYVGSPLKGSSERAIFNVWRRTKAQALYVIIPGIIVWNVWAQARDYNEYLYTKA
+                     GREELERVNV"
+     mRNA            complement(14871..16199)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01873T0"
+                     /Parent="gene-AT250_GQ6801873"
+                     /end_range="1992473"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="ERG20"
+                     /locus_tag="AT250_GQ6801873"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01873T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01873T0"
+                     /partial="true"
+                     /product="GQ68_01873T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1991145"
+     exon            complement(14871..16199)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01873T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01873T0"
+                     /end_range="1992473"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="ERG20"
+                     /locus_tag="AT250_GQ6801873"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01873T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01873T0"
+                     /partial="true"
+                     /product="GQ68_01873T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1991145"
+     gene            complement(14871..16199)
+                     /ID="gene-AT250_GQ6801873"
+                     /Name="ERG20"
+                     /end_range="1992473"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="ERG20"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801873"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1991145"
+     CDS             complement(15001..16065)
+                     /Dbxref="NCBI_GP:AOA66164.1"
+                     /ID="cds-AOA66164.1"
+                     /Name="AOA66164.1"
+                     /gbkey="CDS"
+                     /gene="ERG20"
+                     /gene_functions="biosynthetic (rule-based-clusters)
+                     terpene-precursor: PT_FPPS_like"
+                     /gene_functions="biosynthetic-additional (smcogs)
+                     SMCOG1182: Polyprenyl synthetase"
+                     /gene_kind="biosynthetic"
+                     /locus_tag="AT250_GQ6801873"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01873T0"
+                     /phase="0"
+                     /product="GQ68_01873T0"
+                     /protein_id="AOA66164.1"
+                     /sec_met_domain="PT_FPPS_like (E-value: 2.9e-62, bitscore:
+                     206.9, seeds: 145, tool: rule-based-clusters)"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MSKEVAAKNKVKFLAFFPDLVFELEVMLENYGMPADAINWFKRSL
+                     NYNTPGGKLNRGISVVDTYVILKGYKSWDELSAEEFKKAAILGWCVELLQAYFLVADDM
+                     MDQSITRRGQPCWYKVENVGNIAINDSFMLEGAIYKILRKYFKKESYYADLLDLLHEVT
+                     FQTELGQLLDLITAPEDHVDLSKFTPAKHSFIVIFKTAYYSFYLPVVMAMYLSGITHEK
+                     DLQQAEHILIPLGEYFQIQDDYLDCFGKPEDIGKIGTDIQDNKCSWVINQALRLASPEQ
+                     RQILDENYGRKDADKEAKCKEVFDQLDIAGKYKAYEENIGKELQKRIADTEEDRGFKKE
+                     VFQVFFDKIYKRTK"
+     mRNA            complement(16206..17504)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01872T0"
+                     /Parent="gene-AT250_GQ6801872"
+                     /end_range="1993778"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="HST2"
+                     /locus_tag="AT250_GQ6801872"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01872T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01872T0"
+                     /partial="true"
+                     /product="GQ68_01872T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1992480"
+     exon            complement(16206..17504)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01872T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01872T0"
+                     /end_range="1993778"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="HST2"
+                     /locus_tag="AT250_GQ6801872"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01872T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01872T0"
+                     /partial="true"
+                     /product="GQ68_01872T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1992480"
+     gene            complement(16206..17504)
+                     /ID="gene-AT250_GQ6801872"
+                     /Name="HST2"
+                     /end_range="1993778"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="HST2"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801872"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1992480"
+     CDS             complement(16420..17478)
+                     /Dbxref="NCBI_GP:AOA65844.1"
+                     /ID="cds-AOA65844.1"
+                     /Name="AOA65844.1"
+                     /gbkey="CDS"
+                     /gene="HST2"
+                     /locus_tag="AT250_GQ6801872"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01872T0"
+                     /phase="0"
+                     /product="GQ68_01872T0"
+                     /protein_id="AOA65844.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MEEALQPLVERLKKGNVKISLMTGAGISTGAGIPDFRSPKTGLYH
+                     NLARLNLPHPEAVFEINYFRENPHAFYTLADELYPGRFLPTKFHFLIRLLQDKKLLRRV
+                     YTQNIDALERLSGVLDDYIVEAHGSFARNHCIDCHKPMSIADLRKDMKDKSLKGIPTCR
+                     HCKGYVKPDIVFFGESLPRRFFDLWEEEIEEYDVAIVAGTSLTVFPFAMLPSEVSKDCL
+                     RVLINKDKCGTFETDPRDSDVVIQDECDKVAELLVDLLGWRDEFDQLVEEATKKHKENR
+                     LGLGLDETQALSEKLAKEIEQDIQTNTEPRDEENDISDIVEEINELVISSESKPSKDSE
+                     SNHDSEPEITDE"
+     exon            17834..17839
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01871T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /gbkey="mRNA"
+                     /gene="TAE2"
+                     /locus_tag="AT250_GQ6801871"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01871T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /partial="true"
+                     /product="GQ68_01871T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1994108"
+     mRNA            17834..20941
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /Parent="gene-AT250_GQ6801871"
+                     /end_range="1997215"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="TAE2"
+                     /locus_tag="AT250_GQ6801871"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01871T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /partial="true"
+                     /product="GQ68_01871T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1994108"
+     gene            17834..20941
+                     /ID="gene-AT250_GQ6801871"
+                     /Name="TAE2"
+                     /end_range="1997215"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="TAE2"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801871"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1994108"
+     CDS             join(17834..17839,17924..20941)
+                     /Dbxref="NCBI_GP:AOA66678.1"
+                     /ID="cds-AOA66678.1"
+                     /Name="AOA66678.1"
+                     /gbkey="CDS"
+                     /gene="TAE2"
+                     /locus_tag="AT250_GQ6801871"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /phase="0"
+                     /product="GQ68_01871T0"
+                     /protein_id="AOA66678.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MKQRISALDLKLIVSELSHSIKGYRLQNIYSMINNNKSYLFKFAI
+                     PDSKKSLVVESGVKLHLTDFQRPTTQQPSNFVVKLRKHLKAKRLTNLKQVGDDRLVVFE
+                     FSDGMYYLVLEFFSGGNVILLDQDQKIMTLQRLVSEKENNEKYATGEFYNMFDAKKLFS
+                     EAPADHAIKSYSKEDIIQWLDTQDFKIEQAKKTGKTMKPYTIQKLLFVNAPHLSSDLIH
+                     IVLREKGIDPTSDSTLYRSEDSLAKLLESLAEAEIRLSELLTRKEDVDGYIVSKRNPIH
+                     DPSTEGSLEYIYDEFHPYEPTHKRSSDTQIKTIKGYNKTIDDFFTTIEVSKHSLKEQQQ
+                     KVNAERRLQSVKSENLEKIAKLTEAQLLNIQKGEVIMVYSDVVEQCKAAVQSLLDQQMD
+                     WNHIEKLIGVEKKRGNEIAKLINLPLNLLENKISLALPLVNFDESSEEEDESDSEDESD
+                     SEDSSSSDEQETKNKKQSSTKHSRKKDKTINVNIDLSLSAYANASTYFDAKKIAQDKLV
+                     KTEKNSELAIKSAESKINRDLKKQKKTESSQVNNSNAALRQIRDKFWFEKYFWFISSDG
+                     FLCVAGRDDQQFDHIYFEYFDNDNDFLVSNELEGALKVIVKNPFLNKDVAPNTFIQAGA
+                     FSLSTTKAWENKMVSSPWIVTGSSVSKRDVDGSALAPGLVNITTEKQFLPPCQMVMGFG
+                     MLWLGDKRTNDDYLSKSQSRTEELGLESVDVNAFKKKKIEELKTMIASLSKYEKELEKK
+                     QIQNDKEPSVDNAEEDSKSIVSSLEGLDINENQTQVKRGRRAKLKKIKQKYADQDEEDK
+                     LKRMELLGTLKQVQAQEDIERQPSKSNSTNTAQQSSSASKVQKKKLAELHQLRKLLEEF
+                     ESPDDEEVVPELHYTQVLSTVISSPKKTDTIVDAVPVFAPWSSLNKLKYKVKVQPGNNK
+                     KGKSVTDVVEYFKKLTQQFAKDEEDWFDKEEIISTIGQQDLLMPITVSKLKVVFPGSQD
+                     KKGGSSSGKTKSKGKKKN"
+     exon            17924..20941
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01871T0-2"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /end_range="1997215"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="TAE2"
+                     /locus_tag="AT250_GQ6801871"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01871T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01871T0"
+                     /partial="true"
+                     /product="GQ68_01871T0"
+                     /source="Genbank"
+     mRNA            complement(20639..21641)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01870T0"
+                     /Parent="gene-AT250_GQ6801870"
+                     /end_range="1997915"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="RET3"
+                     /locus_tag="AT250_GQ6801870"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01870T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01870T0"
+                     /partial="true"
+                     /product="GQ68_01870T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1996913"
+     exon            complement(20639..21641)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01870T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01870T0"
+                     /end_range="1997915"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="RET3"
+                     /locus_tag="AT250_GQ6801870"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01870T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01870T0"
+                     /partial="true"
+                     /product="GQ68_01870T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1996913"
+     gene            complement(20639..21641)
+                     /ID="gene-AT250_GQ6801870"
+                     /Name="RET3"
+                     /end_range="1997915"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="RET3"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801870"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1996913"
+     CDS             complement(21021..21593)
+                     /Dbxref="NCBI_GP:AOA66267.1"
+                     /ID="cds-AOA66267.1"
+                     /Name="AOA66267.1"
+                     /gbkey="CDS"
+                     /gene="RET3"
+                     /locus_tag="AT250_GQ6801870"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01870T0"
+                     /phase="0"
+                     /product="GQ68_01870T0"
+                     /protein_id="AOA66267.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MTTDVSLYTVDSVIILDNTGNRVLVKYSNPPHAPEDSDSLAQRPK
+                     QQVQFEKSLFQKTHKVNGDIVLFENKTVVYKEFSDVVIYIVGGLNENECFLFNVLQGLV
+                     GALEIVLKYSIDKKTIQENYDMVSLAVDETIDDGIVLETDPSVIAARVSKAPTEENSIK
+                     IDLSEEGLFNAFKFARSRVADRLQQGF"
+     exon            21840..21890
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01869T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /gbkey="mRNA"
+                     /gene="TAF3"
+                     /locus_tag="AT250_GQ6801869"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01869T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /partial="true"
+                     /product="GQ68_01869T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998114"
+     mRNA            21840..22836
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /Parent="gene-AT250_GQ6801869"
+                     /end_range="1999110"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="TAF3"
+                     /locus_tag="AT250_GQ6801869"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01869T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /partial="true"
+                     /product="GQ68_01869T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998114"
+     gene            21840..22836
+                     /ID="gene-AT250_GQ6801869"
+                     /Name="TAF3"
+                     /end_range="1999110"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="TAF3"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801869"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998114"
+     CDS             join(21840..21890,21943..22836)
+                     /Dbxref="NCBI_GP:AOA65518.1"
+                     /ID="cds-AOA65518.1"
+                     /Name="AOA65518.1"
+                     /gbkey="CDS"
+                     /gene="TAF3"
+                     /locus_tag="AT250_GQ6801869"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /phase="0"
+                     /product="GQ68_01869T0"
+                     /protein_id="AOA65518.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MPKSSFYFSYLRITIIQLLKSQGFDRCSNTVIDALTDTTIRFLGL
+                     LLEKTAKYTASRGESLDDVQIQDISEALTELKIITPCNLLDPYDVSPDNLQGIQNFESW
+                     FIGPYPDRARQVARPSKQYIAEVNESLDPSTQFRSKNRIPEYMNSFKKQEEQIDNTGDF
+                     PLDEDWIRFNLRVELKRNQAHDSKLKNSVLQPYISNVLEDVQRKNGVNGNGSTDKYATN
+                     YDFIITGPTPDKLMQYLPYINSDDEEDDDSYEEENEDSEDQDEDDGDRNNEHNKNDEYG
+                     NENQPEQTTPDFDYEEHNDEDDNRQKLKIRLNI"
+     exon            21943..22836
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01869T0-2"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /end_range="1999110"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="TAF3"
+                     /locus_tag="AT250_GQ6801869"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01869T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01869T0"
+                     /partial="true"
+                     /product="GQ68_01869T0"
+                     /source="Genbank"
+     mRNA            complement(22610..26566)
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01868T0"
+                     /Parent="gene-AT250_GQ6801868"
+                     /end_range="2002840"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="RRP12"
+                     /locus_tag="AT250_GQ6801868"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01868T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01868T0"
+                     /partial="true"
+                     /product="GQ68_01868T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998884"
+     exon            complement(22610..26566)
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01868T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01868T0"
+                     /end_range="2002840"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="RRP12"
+                     /locus_tag="AT250_GQ6801868"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01868T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01868T0"
+                     /partial="true"
+                     /product="GQ68_01868T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998884"
+     gene            complement(22610..26566)
+                     /ID="gene-AT250_GQ6801868"
+                     /Name="RRP12"
+                     /end_range="2002840"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="RRP12"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801868"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="1998884"
+     CDS             complement(22884..26498)
+                     /Dbxref="NCBI_GP:AOA65938.1"
+                     /ID="cds-AOA65938.1"
+                     /Name="AOA65938.1"
+                     /gbkey="CDS"
+                     /gene="RRP12"
+                     /locus_tag="AT250_GQ6801868"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01868T0"
+                     /phase="0"
+                     /product="GQ68_01868T0"
+                     /protein_id="AOA65938.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MTSDYDPELEAKLAKIRVHASSKLENQKHMALILSAVEENIQEQN
+                     NPRTAVTYFVSFMSLLDRCIQDDIITDNALALSTAYFLDLLAPLTPKSLLKSNFAEILT
+                     KIAPAITNEQAEAPLIRSSIGVLETLLLSQDLASWKNASSMNISPKRGLMGLLELTLDS
+                     RPKVRRRAQEAISKILSNPPPGPSVEHPGSLDCADFATNKLIETMRLQKSKRKSEDRSA
+                     NSAVIHCLQLISQITNTNSWPNVRIELVCDLLLEVAKSSDQFLITNAFQAFENLFNSMS
+                     EDELSIDKFDSVIKIILDLKPSVNDTHLAAPWLAVVAKASTAYSNANQTRFIKKFPIFV
+                     QTIIQFFSSESENICISTSQCLIAIITEGIHDDSLLIPSKQFPISPKLYESVDESITQL
+                     AEAVNSLLSVKYNHCLSDILNLISCIFIKLRSRANPDFLNCLEIVGAWRSDEQNFQYIQ
+                     EADNVIGSAIGALGPEAVLSVLPLNLDSPKKTGRAWLLPLLRDNVRNANLSYFKTQLAP
+                     LIKFFEQKIASSTGDSVHAKIFATIIDQIWSLLPHFCDLPTDMPTEFDDEFASELASLM
+                     YSKVELRVTICQAFKSLVESNLVYSSGALSEDKLLQQQFPKESAAANIEVLSKMSSKLL
+                     SVLFNVFSQTVPELRGFILETIEPYLQISSQDDLVDSFKKVCLHLNQALEEDKKNITQA
+                     QLDGKKLPNQKLSTGEIPRLSVTMMDLIVVMVKYIPESSYNALLSIFNQTVAIDDSLIQ
+                     KRSYRIIARLLETESGKNAVEQFLPQIESLFIDSAETTHIPAKAARFQALLRLIPILPD
+                     DHLYFIPSILSEVIITIKDPKERSRLLAYDVLKAMAFRMQKGGVVITSKVPGMDPDTPN
+                     TQASLSEYFTMCSAGLAGSTAHMIGATINAISYLFYEFRNDMDRDLLNEVSSTVELFLT
+                     SKNREIVNATLGFVKVSILTLPSDVVKENLPNLLANLMRWSHEHRGNFKTKVKHMVERL
+                     IRKFGADLVEQAIPEEDRKLIANIKKTKRREKRKAVEGDNEPEKSKAKSKTGFTSAFED
+                     AIYNDSEDSEDDGDEDEPSNGKSRQYITESKDEPLDLLDQQTLARISSSKPKKFSKKDL
+                     AAKAGFRTNQEGKFVINNKIDDDLLDNKASGIDAYVEAVRNGPVKGQRNKLKYLRGKKA
+                     NNDEDFGDESDEEPAATKKNMFNKIRKPKQKFKAGRKL"
+     mRNA            26739..27101
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01867T0"
+                     /Parent="gene-AT250_GQ6801867"
+                     /end_range="2003375"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="MRPS16"
+                     /locus_tag="AT250_GQ6801867"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01867T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01867T0"
+                     /partial="true"
+                     /product="GQ68_01867T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003013"
+     exon            26739..27101
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01867T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01867T0"
+                     /end_range="2003375"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="MRPS16"
+                     /locus_tag="AT250_GQ6801867"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01867T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01867T0"
+                     /partial="true"
+                     /product="GQ68_01867T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003013"
+     gene            26739..27101
+                     /ID="gene-AT250_GQ6801867"
+                     /Name="MRPS16"
+                     /end_range="2003375"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="MRPS16"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801867"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003013"
+     CDS             26739..27101
+                     /Dbxref="NCBI_GP:AOA66342.1"
+                     /ID="cds-AOA66342.1"
+                     /Name="AOA66342.1"
+                     /gbkey="CDS"
+                     /gene="MRPS16"
+                     /locus_tag="AT250_GQ6801867"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01867T0"
+                     /phase="0"
+                     /product="GQ68_01867T0"
+                     /protein_id="AOA66342.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MKGSVRIRLARFGRKRQPVYNVVVAKARSARDSQPIEVIGTYNPI
+                     APPLSPEQKLQGLVPTKDIQLDFQKSKYWLSVGAQPTPTIIRLFKKAGILPSEWPSTRV
+                     GPIVPEREVIQEKKDL"
+     mRNA            27532..28908
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01866T0"
+                     /Parent="gene-AT250_GQ6801866"
+                     /end_range="2005182"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="YPL014W"
+                     /locus_tag="AT250_GQ6801866"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01866T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01866T0"
+                     /partial="true"
+                     /product="GQ68_01866T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003806"
+     exon            27532..28908
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01866T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01866T0"
+                     /end_range="2005182"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="YPL014W"
+                     /locus_tag="AT250_GQ6801866"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01866T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01866T0"
+                     /partial="true"
+                     /product="GQ68_01866T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003806"
+     gene            27532..28908
+                     /ID="gene-AT250_GQ6801866"
+                     /Name="YPL014W"
+                     /end_range="2005182"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="YPL014W"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801866"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2003806"
+     CDS             27532..28908
+                     /Dbxref="NCBI_GP:AOA65648.1"
+                     /ID="cds-AOA65648.1"
+                     /Name="AOA65648.1"
+                     /gbkey="CDS"
+                     /gene="YPL014W"
+                     /locus_tag="AT250_GQ6801866"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01866T0"
+                     /phase="0"
+                     /product="GQ68_01866T0"
+                     /protein_id="AOA65648.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MKTLKPQLHIHINNNQKAIGVDSFKTPVEQTLQTPSNPPNHAGGS
+                     SFFPSTAGDPGLDSGFQTPYNGSRNASAISIGISKEHPSYQNDGMDLDDIERPFPLTKC
+                     SSVSSMASSIMAETEPLINNIEFEERFDMLLSEIYMSYSMNPETTPFNIRFPPGGVISM
+                     VSKDVFDRCLKDKIPLDRNPAINHELFSTREPSVVLAIIRKRLLDFCNRNMDADSQYSL
+                     SRQNSACSINFPQTSQAPFSAGSSFSSNASTSSTTQAPKMQRGKPSWLHSNLNSRTISS
+                     TDSLVDSVSPQFYKNKKSNAGFTMVTPPSSSQGAGSFVDEFSFERKERSNNSTTSSNVT
+                     GIASAGQGRIQPQVLSVPFNVPSTTSPQFASPIFTGSSDGVPVLQSPFHEKGSYFGNNT
+                     LSAGTTKPPNTTRKSSLSNVINAGSVSALKDPLDLDLDPLYNVTSQRKRDSLKLKRNLR
+                     "
+     mRNA            29225..30883
+                     /ID="rna-gnl|LoveMIT|mrna.GQ68_01865T0"
+                     /Parent="gene-AT250_GQ6801865"
+                     /end_range="2007157"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="STB5"
+                     /locus_tag="AT250_GQ6801865"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01865T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01865T0"
+                     /partial="true"
+                     /product="GQ68_01865T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2005499"
+     exon            29225..30883
+                     /ID="exon-gnl|LoveMIT|mrna.GQ68_01865T0-1"
+                     /Parent="rna-gnl|LoveMIT|mrna.GQ68_01865T0"
+                     /end_range="2007157"
+                     /end_range="."
+                     /gbkey="mRNA"
+                     /gene="STB5"
+                     /locus_tag="AT250_GQ6801865"
+                     /orig_protein_id="gnl|LoveMIT|GQ68_01865T0"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01865T0"
+                     /partial="true"
+                     /product="GQ68_01865T0"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2005499"
+     gene            29225..30883
+                     /ID="gene-AT250_GQ6801865"
+                     /Name="STB5"
+                     /end_range="2007157"
+                     /end_range="."
+                     /gbkey="Gene"
+                     /gene="STB5"
+                     /gene_biotype="protein_coding"
+                     /locus_tag="AT250_GQ6801865"
+                     /partial="true"
+                     /source="Genbank"
+                     /start_range="."
+                     /start_range="2005499"
+     CDS             29225..30883
+                     /Dbxref="NCBI_GP:AOA66224.1"
+                     /ID="cds-AOA66224.1"
+                     /Name="AOA66224.1"
+                     /gbkey="CDS"
+                     /gene="STB5"
+                     /locus_tag="AT250_GQ6801865"
+                     /orig_transcript_id="gnl|LoveMIT|mrna.GQ68_01865T0"
+                     /phase="0"
+                     /product="GQ68_01865T0"
+                     /protein_id="AOA66224.1"
+                     /source="Genbank"
+                     /transl_table=1
+                     /translation="MTESIVASVPKPFGVTKFRVKNRSSLEVPIYDSSIGESKRYSCVK
+                     CRKLKKKCSREFPECATCTMSGTYCRYTERKKRRTQSMASPSVKASSLSPATFRPREEP
+                     NYVLSSTDKKLNNTFGPEEKATSPYPTRIHLPPIDTLKFSSSLDVLQCKLLSNSFNISS
+                     NGSSYSIIPVHLTTKYFEAFQSFQEQAGTFITCDDIKSSEANSHYTLANDKNLVCKFNL
+                     VVAIGATFLSHSQHNMLSFEEHKLGTSARENALELISKENLISKDTLPITEILILITLY
+                     TCLERDPSLSWNLIGMTTRNSLLMNLNRNSGDSEYSQRLFWSCYNLDRLISFSLIQPVA
+                     LEDAYINIPMIDHEQFIRITSLRVLEGKVLKKIHGLSKSGGSELVTELRGLVDRYDEVI
+                     TEYSKDQLASSNSKLWFLAEYYHLVLLLYYPSQLDSTPSKFQMETLASVCSKFLPCIYN
+                     LQVTKVLLYNWISFYRVLSLLSAHLYCVDHGASQLSDSSIAKYSSLLQGYVKSWPFTTD
+                     LIKIVESLPKMLPNEALTSYKQLLKQHSIRISNIL"
+ORIGIN
+        1 actatgatgg tgaataattt gaagcagatc gtattcggca aactcactga tcatgtaaat
+       61 gcatttgttt tccagcacaa tctctgtcaa attgataacg ttttcgttct ttagttcttt
+      121 gcaaagtgat atctctctga ttgcactttg agatatacca gtataatgag taatttcact
+      181 gtctttgctg tcaattttga actttttgat agcatagaat tgtttctggt tatcctttga
+      241 ctttccactg gctttgaaca cctttccata cgttccagac gctatgtatc caagaatggt
+      301 gtatttgtca agcacagact cccttgattg atcctttcgc tttctgtaag gcccaatgga
+      361 aaagaagtca ttgcttgcca tcctcattgg ctgctgcgtt tggttgtaaa gacgattcat
+      421 tttgtgattt tattgtggct gggcagactg aattcagtac tcgaagaagc gataaatgat
+      481 aaactgtcaa aatgacgagg tcacagccga caactgacac ctgacaccca atgacaaaat
+      541 ccaccagtat aaaacaatca ggagctaact tgatcattat aaagcaccct attactctat
+      601 ttatttacaa aatcgaatta gtacattatc agagtctggg tttttccaga gattttttct
+      661 gactcttttt caattcatcc atttcccaaa gttccttctt tccttgcttc ttttctctct
+      721 tgaatagtct cattatcggg ttaaccaccc atcgttcaaa ccacggagtc agcagaaaac
+      781 aaaggggcac tcggaatgga agtaacatct tggtcattgc gtaggcattg gcaccactca
+      841 tgatcagttt agtcttgtcg aacagtgatc ccaatcgctg ttggtccatg tcgttcagct
+      901 ttttggaaat aatctctgta cctctcgtca gaaactcttg tggtaagtcc aggggaatcc
+      961 agtcgtattt catcatcaga taccagaatg atatgaatgg tacaatagct gttatttcat
+     1021 gcagaatgac aaacgacact ccaaacttga ctggcgaagt aatgaattct cctatataag
+     1081 gtctgaaaaa tcttgggcat cttctgtagt acttgttctg catcaaacgt tcttcattgg
+     1141 agactggttt aacctcacta ggtggctcct ttgtctcttg tggtggagtc gttttcttgt
+     1201 acagaagaag acaacttgga gacaaggaga aaggtcttgt gagtggcggc cgggagcatc
+     1261 cagctctacg taataaaggc aggtgtacgc gtggagtcaa catcatcatt gcgcttgctc
+     1321 ggtatcagag gagagagttt gaagaccgtt tgagattttc tcgatttgaa ctttgaggtt
+     1381 tggtgtcatg gcagggcgaa actcttcaac aaaaataaga gacgtcggaa tggagctgtc
+     1441 gtgtgagtaa aacgggatac attcaggtca cgatgatgcc ctcccaaaag aactttcctg
+     1501 aaatgtggta acttcattta gtcttaaggt gtccataaga gcatgatgta gtgctagcta
+     1561 ccagctagcc ctccatagaa agatgcaata tgcttacaat gttatatacc aagtggagaa
+     1621 aggcactttt acttctctct acacccttca aatcccattt gccaccttct tacacgtcga
+     1681 acagtcccaa gtgacacaca gtctcatcat ctatattttc gcgttgatcc atacatttat
+     1741 gcgtgaaata attctttctt ctcctaataa tcactagcaa gtattatctt tattgaatag
+     1801 agtacttgaa agtcgatttt caatccagca tctactgcca cttttaattg tcactccttt
+     1861 ttcatcgtta ttgccagcct ggattgttat tcatggtagt ttcctcaggt attcaactcc
+     1921 cttactttac tacgaactca gcttctattg aacctacaca cacaaaaaac acgagaacct
+     1981 tcaaattgaa taactcaaat aagtctgagg taaagaactt tcttgctgag tcagagtcgg
+     2041 gatccagctc tgctagtgat gaaagcgctt taccagacct ggtctacgac gataatgata
+     2101 tcaacagtta caaatataaa gaaaagagct ttctgatcag cgtcatcgtt tcttatgtct
+     2161 caaaaacctt agcagatttg ttttcaattt ctttggaaaa ctcaacttgt cgttgtggtt
+     2221 gtgttgatta tagtacactg agacttttca tcacagaaat agtacggagg agtcaaactt
+     2281 ctctacacgg attcaaaatg tcaacgatat acctgctcag atttcatcaa gttttgcagt
+     2341 acatgtccga gcactacgtg gtcccagatt cgttgtgttt gaagataatt gccctctgtt
+     2401 ctttcatgct aacctcaaca aacattagta atcaaccagt ggatttcaat cattggcaac
+     2461 tgatttcagg attaagtgaa gctagattaa agtcagaatt caggcagttt attggacttt
+     2521 taaccgagaa ttatgatgac cacaagagct tggtcgtgac tactaacgaa tttcatgatc
+     2581 taaacttaaa attaaaagag gccatatgcg cgtgcgttca agtcatttag aaagtataat
+     2641 tattagtgta aaatggtcct tattcatcaa acgttaccca agcctccatg aatacctcca
+     2701 gcatttgctc ctcctacact ggcaccctca ttgatggtaa tttctggaga aagatcatta
+     2761 tggatattca tcacatacat cgtcattgac atcacaatta agtgcaggct gatgcaatat
+     2821 gctaaaaaca agtatctgga tagtttggtc gatagaatag ctcggataag cgaaatgaat
+     2881 atccgttcca ttggagaaat cctagagcta atccttttgg actctgccaa cctaaattgt
+     2941 tctatcggat gcaatttgtc ttcgtaactt ctcttgtagt actcttccga ctggctctcc
+     3001 ttggactgat tcttattact gtcataggat gacaaaaacc tgattctctc gtataattga
+     3061 ttattgtctg aagaaagtga ttggaccttt ctttgaagct cagaaatttt gttcaattgt
+     3121 aatctaacgt ctttttcaag atctttgttc ctttgcttaa atcgatctct ttgttgtgat
+     3181 accattgtaa tcaacgaatt gtcctgtatt gaagtgtccg gcctggcaga aatcattgaa
+     3241 attgcatccc atttttccac actagtctcc ttctccaaat cctggtttaa ctgctgtaac
+     3301 tgctctactt gcttttgaga aaacgcaagc ttctcttcca gttcctgaat tgaattaacc
+     3361 atgtcctctt gtttcgatct gtagctaacc aactcattac ttagcttttt gttcttgttc
+     3421 agtaatatat tatcaagagt tccagtcaac tcttcctctt caccttcccc taactcgatt
+     3481 agtttaagca cttttaaatc ttgtttaatc tgctcgtagt catttttctc ctctaaacta
+     3541 gaattcaaac gggcgcactc ttctattttc tcgttcaaag cttctttagt tcgatctaat
+     3601 tcgtccttca aacttttaat ggcgttccgt ttattcaacc tttcttcttc cagcttagag
+     3661 agatactcca cactctcctt ttcgagttcg gtgaccctct cctggtaggc tttgtcatct
+     3721 ttctttgcta attcctcctt tagagagttg ttcaaccttt ccaattcaag gatctttagt
+     3781 ttattggact ccaaatctct atttaacatg tcataattgg agtatgtatc atcattattt
+     3841 tgtccttggc tgttcttttt tagcttggca tcaagggttt caatcaccac ttgaagctct
+     3901 tcattttctg aagatttttg cttcagctca tccctcaatt ggactatttc agtttgggct
+     3961 gtcttaatct gatcaagact tttctcttcc gtttccttta tctgtacgtt aaatttttct
+     4021 tccaatcctt tcttctcgga agcccagtgt tgttctgaat gcctcagttc tgtggaaagt
+     4081 tttttcacag ctttctgtaa ttcggtattc gtctcttgct ccttgctcaa agtacttgta
+     4141 ggatccttca aatccaccac tactttatgc aattccaaga atgtctgtac aacacgatta
+     4201 tttcccttgg tcaaatcatc aatgtagttt tgatactcct tcaacaacga cctccattgt
+     4261 gtcaatttac gctcatcgtc caatttcttg aactccttcg tcttaaaact caactgcttt
+     4321 ctttgatcca aacttgaaga cttcgaactt tcaatctctt ttgcctcatc atctacaagc
+     4381 ttcttaacac cctgtagatc gacagcttgc cacgcttcaa atactacttg gaagtcagcg
+     4441 tcagtcatgg tgaagttgta tttcgatgtg agggaagaaa acagacagat gtctccaata
+     4501 cgatgcgatg cacactaccc ccgcgattac gtgacaacgg tatgaattcg aacggtccat
+     4561 ctacagagaa actcggaata cagcacacat agggaagttc catcctgtta cattagatca
+     4621 cattgaagaa gtatttaacc tgaccagtat ctatataact gaggagaatc caaactaatg
+     4681 ggtttgacgg agtcatctct atctttcgtt ccatccggat tggcatcatt agcacctatc
+     4741 tttctaacta ttgtttctat gttcgaaggt ttcaacgcta actcctttgc ttcatcaagg
+     4801 atacttttga ttttttcact tgagtcacag ttttctaaca ggttcactgc ttccatcaat
+     4861 ttgtcatgga cttgacctgt ggatttggac aaagaaattc tctctaaaaa gtttctttcc
+     4921 tgttgaactt tcaacttctt cttcttgaat tcgaattctt tttctagctt tgacacttta
+     4981 gcgagtttga tgtccaccag cttcatttgt tgatttacga gagagataat atgtttgtgt
+     5041 aattctcttt cctcataagt tgcaaataca tgagctcgag aagcaacaat accaaaactg
+     5101 ttgacaccag catcttttat atcctctagt gggtcctctc tttcctttac attctcagct
+     5161 ggcttctcca atacttcttc tttgttttct tccttttctt tctcactggt tggctttatt
+     5221 tcagagggag tattggttct tggtgacttt tctgtatcat ccgtcgactg ctttcgttca
+     5281 gacttgatcg tattagtttc tttatctgta gtttcaccct gaggttcctc tttactttta
+     5341 tcctccttca actcaatctt attaacaatt attttttcaa ttgccctgat ggctctagta
+     5401 gaagcagcag aagcaactga atgatcgacc aacgtagcga gaaaggcaag ggttgacatt
+     5461 accgggttat caacagggga gaagggaagt ctgggaatat acttcaaagg tcctagtaat
+     5521 tgtgggttct cttcaagaaa cttgtcttcg ataggtaatt ccaaaaacct caatatacac
+     5581 tgttcagggg tcttgtcacc cacatgctgg gcaatttggt tccagttgtt gccgtactgt
+     5641 ttgattcctt cgaataattt ccctaacttc tcttcgttcc aaccttgatt tttatctggt
+     5701 tctgtaaata gcttcacttt cttcttgggt ggctcattgg tagtagtttc tacgtcatca
+     5761 cttcgtagaa gtttcttgat atgagtcaga tctggtaatt ttgtaggagg tttgtaagtt
+     5821 tcaaacggaa acaaacctct cggtgtatcg tagtctattc tgtagctctc tgtagagaca
+     5881 gggtttatat tctgaggtct taactcagcg ttaacctggt agttaatcag tccccatctg
+     5941 ttgaggaaac gatgaactct cataattgtt ccagcatctc caatcagatt gcggcgacat
+     6001 gctgttacag tcaagtactc atttggattc attctataag tgttcaccat aaagtttctg
+     6061 tactttatgt atagggcctc tgttttatgt ttattaacat tattgaaaaa ctctggaagg
+     6121 gactttttct cgatatcact gacccttctc aaactaaacc atgtgctgta agatggtatg
+     6181 acaatagtat gtgtctgagg tttatcttcg ggtaacggtc tttcaactac ttcagctttg
+     6241 acataatctg ttttgtcatc ttccaaattt tcatcttcat ctgcatccag aacaggtgtt
+     6301 ggtttgtgcg attcctttgg agtagcagct tttggtgttg tctttggtga ggcctttgag
+     6361 gatgaagcgt tgaccttgtc atcaaagatt ggcttggatg aaacatcgtc agtgactttg
+     6421 ggggaagcaa tgggcgttcc ctcagcagtg gattcgtcag aggaagcaga tggtctgaac
+     6481 acagattttt cttctggtgt tccctttttt gttgcacttc cgttactttt agggccttgc
+     6541 acagaaagtt ctggctctag ctcttccaac tctgacttgc ttcctagctc ttgcttgggt
+     6601 tctgctgacc gattttcttg ttctgtatgt gtaattcgtt gtgtctgtga ttgtgatggt
+     6661 tcttcttgtt ctggagttcc ttgcgattta tcgtccgact cagcctgcga ttcgttttct
+     6721 tgctttacat gtatatcagc ttctaatact ggctctgatg gtgatttttt tagacttatt
+     6781 gggtttggca gccgttgctc atcattggcc acatcgctag tgatggcttc aactacttgc
+     6841 tccccattct gattccttcc atctactcta acagcttggt cttcttcaat ttcagagtca
+     6901 gacctacttc gagacctcga caaactatca cgttctcctg gttcaggcac atttccatcc
+     6961 tcgatagcat cagccataga agaatctgaa tcctgactaa ttatggggtc tttatccttt
+     7021 ggctctgcct gtaattcatt cagggacata ttaatactac aagctaattg tcataagcct
+     7081 tccagcttga gtagagaaat tcaaaatgtt gtttacaagc catctctcat gaaggttgaa
+     7141 tgttcgagct agaggtaaaa cttttggttc cggcactact gatgtactag atagaagaga
+     7201 tatgaaacgg ctaggatttt ggcaagaggt aaggggaaaa aaactagtat ttgtactcca
+     7261 gcaattgctg tttcctagaa atgttggaaa agttttgttg ctaccagtcg gactcaatta
+     7321 gcacggacac cggttgagta aaaagaaaga tgcggggatg cgcaataagc ttttcattca
+     7381 ctgatgatag ggttgcggat cttcttccca gaagcctgtt ttttttttcg caaaaatctt
+     7441 gaaagacgtt tccactggta ggctgttgat atcttctaaa caggccagat atcccccttt
+     7501 tttagtacgc tgaaagccaa gcagtttaca ggaatggcgt ggtcgtgtca gaatcaaatg
+     7561 tcgcgttagg ccccatcgag ccttccctat ttgtctaacc tttagaaggt tccttccccc
+     7621 acacagtaac catgacaagc atggatatcc cctattcgca aataagttca tttgtgaact
+     7681 cgtcattctt ccagaagctg tcccaattga agctcaacaa atatagactg gacgacacgg
+     7741 acaaggcgat agtgggcagt gtcgatttta agttcattgg gaagaaccag ccaacaagtt
+     7801 tatctgtaga tgagtcaagc ttcaatgata atataactta cacgcatgca cagttcccgg
+     7861 tcaaaggaat actgaagaac ttaaacacgg ttgaggattt cagaaaggtg gacaagaatg
+     7921 aatttcttca atcacagggt ttggtggtgc ataaatcaat tcaagaccgt tcgtgtctaa
+     7981 aagatctctc aaagttgacc caatttttca ttctgtcctt tagcgacttg aaagggttca
+     8041 aattcatcta ttggtttggc ttcccatcat tagtgagtag atggaaagta aacaaactga
+     8101 gtggtctaac tgaatcgcag atagagccgt atgaaagtaa gcttaacgag tggctaaatg
+     8161 ctcgtttgcc cattgagcaa aagcaagctt tcattattga caaccttgaa ttcaaaccgt
+     8221 ttgaacaatt gtcaagtttt tcacctgacg atcagcttag cattgggttt attgacacca
+     8281 gcagcatcct caacaaatgt tccacccagt tgagaaatat tctgtacatg ctggcttatt
+     8341 atggctttga gaacatcaaa gtatacaatt tcagattcaa caataccaca tcctttacat
+     8401 tagacatcac tcttgctgag cctcttactt ccgagccaaa aacaacaggg tgggagagaa
+     8461 ctgctcaagg taagttgggc cccaaactgg ccgatatagg tgctttggtt gaccctgccc
+     8521 gcttggctga ccaatcagtt gatctaaatt taaagctgat gaaatggaga gtcatgcctg
+     8581 aacttgatct ggatatcata aagaatagta aggttctact tctcggtgct ggaacactgg
+     8641 gaagttatgt ctcgagagta ttgctaggat atggagttcg acacattacg tttgttgata
+     8701 atggtaaagt ttcattctct aaccctgtta gacaaccgtt gttcaatttt acagattgtt
+     8761 tggagggagg tgctccgaaa gccgaaactg cagccaaagc attgaaatta atttttccgt
+     8821 taataacaag ccaaggatat aacttggaag tacctatggc tggacacccg gttaccgatg
+     8881 aaaaaagaca gtatgaagac tatcaaaggt tagtgaccct aataaaggaa catgatgtag
+     8941 ttttccttct aatggattca agggaaacga ggtggctgcc taccgtgctt tgcaacgttt
+     9001 ttgataaaat ttgcatcact gctgcattgg gatttgattc atacctggta atgagacatg
+     9061 gaaacttgtt taataccgag cacatagaag cggaagagaa ctctcacagg ctgggatgct
+     9121 atttctgcaa cgatatcatt gctccgaaag atagcacaac tgatcgaact ttggatcaaa
+     9181 tgtgcacagt gaccagacca ggggtagcct tacttgctag ttctttggct gcggaactat
+     9241 ttgtttccat tcttcaacac cctctaaaga gtcatgcgcc tgcatcactc catgataatg
+     9301 ccacagttct tggatgttta ccacaacaac tccgagggtt tcttcacaat ttcgaaacct
+     9361 ccaaacttga agcaaataac tacgaatact gctctgcatg ttcgatacag gtattaaacg
+     9421 aatacaaatc cagaacttgg gattttgtca aagatgccct gaatgaaaac aattatcttg
+     9481 aggatttgac aggccttact aaggtcaagc aagaatctga gatagccgag aagaagtttc
+     9541 aagagtttga aaacggttta gagtttagtg atgaagattc agaatggata aactaatata
+     9601 caaaaactaa tccatggggt tctggaaaat taagaaaaaa tatatttaat gacccttctt
+     9661 tttttgctta tcgatatgag ctcgtagaac cttttgctta tcacgaagag ccattttctg
+     9721 tttgctttgc acacctctct tgtggatggt catcaagaag ttcttcttac gagccttctc
+     9781 tttattagtg gtagaatgct ctccttctct ctttcctctt ctagaaccat gagcatcttc
+     9841 atcacgacca gccttgacat gagccaatct ctcttcctta ttctgcttgt atttagttga
+     9901 tccaaccaat ttggaggagt ccacatgttg ctcgttgagt ccaaaaatag attggcccat
+     9961 gatcttttcc actccagctt ttgttttcaa ttcatgcagt ttagcaaaat cagctggagt
+    10021 taaaatatca gaagacaaaa gtttctgaac ttgatccata ttggagtcct tgtctgagtt
+    10081 tttgttcttg tcggtattcc gttcgtcgtc agagagttcc agatcggagt cgtcatcttc
+    10141 gtaggccctt ttctttccag aagtcttcgc ctcggtgtcg tcgtcaacgt tgacccattc
+    10201 accctcgtca gattcttctt cttcttcctc ctcaacttcc cattcatcac ctaccttatc
+    10261 ttcatcctta tgttcttctt tccatttagc caaaagagcc aaatcattgg tgttcgtaag
+    10321 ggcagagtcc aaaccaaatt gtggaagacc ttttctgcta ccagacttca ttcccatgga
+    10381 agcttcttta cctctatcct ttctggcaag catttcagga gcgacttctc tatacaaagt
+    10441 gatcaacgat cttgctgcca tcattacgga tttagcttta gagcccttgt attcggtcag
+    10501 atcctgtagc aagtcagcat caatagccaa tggcgctctt gctaaaattt cccttacggt
+    10561 gttcaatcct gctgctgcta cttctgtcgc aacaccatca ctgataaact catctgcgat
+    10621 cttcttgacc actatggtaa tggactcagg tggcactaag tcatgagatg cttgagctgc
+    10681 tgctgccatg aattgagtta catcctgttg ctttggagtt aagaatttta ataaaaatgt
+    10741 gtaaattccc aaacatgtta gtttatgggt accaatcaat ctagaaatca gattcactat
+    10801 atcaattttt tgttccagac tgtatttgtt ggcacgttta ccctgtaact gtttggagaa
+    10861 aagttcgtct gcaaaacctt gtgggtccct gagtaaatga atagctgaga agtttagata
+    10921 cgtagctgaa tgtttagcgg atcctttctt cttcaaggtt ttaagagctg tttctagttt
+    10981 cttagccttc tttcctgttt tcttagtaat ctgcgcttga tgcttcagtt gtgccaaatc
+    11041 aggttcctcg tcatcatccg agtcttgggc ctcgtctctt tctttatcag cacctaagaa
+    11101 aaactttaca cctgcaatag atactttcac atcagggtgc aatgcagcat gggtcataat
+    11161 ctcaactgtt ctagagtcgt cccaaatacc tcttctccac agctcccttg tgagccttgt
+    11221 tgcccataaa ccttgagtgg tttgctgttc tagtagatta aaaagcagag cttgagttga
+    11281 tctgttcaat ttctggttct tggaaccgac atttacagct ttaagtaaag atattaaagt
+    11341 ctgatagatc tgctttcgaa gctgcttaat gttggcaata gatgtttctt gtgaaatcag
+    11401 tagtggaaat attgtctgga ttaaaaactc ggggcttata acgtctttat tcctcaacat
+    11461 cacaaggcat tgaattattt tctccctcaa gtcaacatca agttctttgt agttattgat
+    11521 cagaagacta ttcaagtcag atggaaattg cttagtctct tgtggaaaac actggcagac
+    11581 gctactgacg aatccaatca gctctccaaa ctcatcagct ccttcattac cactgttagc
+    11641 atcactaagg tagatatctc tcaacgattg gtaatgagaa tactgttgga gaaactcctc
+    11701 ttcataagac ttgggatctc tacggaccaa gttctgcaat aaaatgatat tattcggcaa
+    11761 gatagccgct ctttgtcttc ttaccattct gtcgggaaac taaatctttc ttgaaggaaa
+    11821 aaattatggg aaattttttt ttttttatca ggcgcgagat gagataaata gataataggc
+    11881 cttcctcaaa agggatatgg tgtggaaaat agattcgttt acattcgttg tctgatgact
+    11941 gtctcgtcga tcagttctat gatacttatt aattctaccc aaaaggagca tcggttgcca
+    12001 gcaatcgatc taatatctcc ttcaaagtaa acctctcttt cgggtcacct ttgagacacc
+    12061 ctttcacaat attaactaag ggagtaaact cttttcctct ggattctgca atggaataat
+    12121 ctacatcccc tttcttaatt agttctttca aaacttcgtc gcttgaattc gtaaatggta
+    12181 atttcccaga gatcatcgtg tatatcatca ctcccaaact ccagatatcc gattctttgc
+    12241 tcagataaca acgtgggcag tcagggtcta caagcaattc aggtgcagca taaggaagag
+    12301 atccaatatt gcaatctggc agaggatgaa tacttggaga tttttctgga cttgcagagt
+    12361 tgcgatacag ttttggtaac gatgcattgg gtgacgtatc tgcagacgtc agagtttcgg
+    12421 aagatgaata gttctgttgg tctttgatct tttgaagctg acttgatagt tctgatacaa
+    12481 cctccttgct ggaaagtgtt cttcccaaag acaacgtcgg ggttttgctt ctacctcttc
+    12541 ggggaggagt accaatgtgg aagcttgcct tatttctcac gttcactttg cgttcaatct
+    12601 tgatatcttc caaacttcgg gccataccaa aatcacaaag tatgcagtta ccacaattgt
+    12661 cctttgtcaa ttcatggtaa gagatggtaa tatccaagag acagttctcc agctttacat
+    12721 cgccatgaat atagtccagt ccatgcatgt actgtaatgc attggcgata tcgatcatgt
+    12781 atttccgaat tacggcctga tcaggagaag aatgactcca aaaatctacc aaatcgaaaa
+    12841 gggttccgcc agaacactta atggtcaggg caaaaatatt tccatttgct tgggtccagt
+    12901 tcagcaaggg aagcaaatta ggatgattca ttttttccca cacttttatc tctctgagaa
+    12961 attcgttcat caatgactcg ctaccacatg aagtgatttt catcgcattt gtatatccgg
+    13021 aggctggtgg attagaataa ttacttctaa actgctggct cttgggatcc aatacaaaac
+    13081 tgagcgctaa agaactcctt cggctcggag cataggaagc tgcccgtgat gtagtcgtgg
+    13141 aatcggcaat gctggcaact ccagtatact tacagcattc tctgacggtt ccccatgctc
+    13201 cgaaaccaat gacattaccg agtttgtatc ccatcactac agaaccaagt ctgttactat
+    13261 tggggggcac tggttcgttt gaaaggtcag tcctggaagg cagcccgttc ttatccatgg
+    13321 taaccctaac tttggaagac atgttgttga gaaataacat cgctggcgat gcctttttcg
+    13381 atgataatga gctggaggag gacaagttgt tacctttgga cttgaacttt gctttgatga
+    13441 gctttgtcaa atggttttta tagtcattat tacgcagttc ggagggaatt atcttggtca
+    13501 aaaacttctt cctttcagaa aatgagaatt cttggaagtt aaatggtatt tcgttcaaaa
+    13561 tcttttcatc aaaatctctt ggaggtgacc caatcaattg agataatttg tcaatgtcca
+    13621 ctggttcatt ccattcatca atcttctttg cgtcaacttt cttttccata tctctcttct
+    13681 tgtggttctt cgggacactt attggaattg cctgagaatg aagttctttc aacacatcat
+    13741 cctcaaggtt tctcttcttt tcaacattct catttgccag atcttgagaa ctaaaccaat
+    13801 tcttgagaat atcctgattg aactcataat taggaacata ttcgtcttcc atacccttta
+    13861 tggaagagga tccgtggtaa tagttgacgc tcgtatagtc accatcctta tcatcctcaa
+    13921 tctttgagtc tttctctgtg aaccctccat aaaggatctt ttgattgttg ccgttggcat
+    13981 tatttggatc tatgtctgcc agctctgcgg ggtttctgtc ctctgttgag agtgtggtaa
+    14041 agctattatt cttgttgtag ggcactaaag aaggtttgat aggagtatag ttgacagtgg
+    14101 atgcaattgt aggttttgat ttcagtggga tatcaagatc ttttgcgaat gtcaacttgg
+    14161 atcctgccat aattagatgg tctagagaac taagtagata aggaaagttt ttggtcttct
+    14221 ccacttgata ttgacccacg cgcgcgatgc ccagtgaggt gagatgttct gtgtagtgag
+    14281 taaatgtgga aagattatgt aataacaata ctgtcaaatc taactgtgtg gagcaatctt
+    14341 agtgacgagt aatggaaaca gtgttgggcc ctcatagttc tgtacgtctt gaccattctc
+    14401 tatgcgaaag ggccaaggcc atactttatt agctggtgat tatctctgca aggtagttac
+    14461 aggtatcact gctaccaacc taagtttccc tgcgaatatt tcagaacgga attatcacca
+    14521 atcagatggc ctcgaatata atacgggaaa ttctactacc atctacttac cctaaaacta
+    14581 cattaagaat ggcaggacat ccaggtgctt acatgggctg gtggggattc attggatccc
+    14641 ccaagcaaaa gaacgtcact acctacacca tctcccctta cgtcggatct cctttgaaag
+    14701 gatcatcgga aagagccatt ttcaacgttt ggagaagaac caaagctcag gctttgtatg
+    14761 tgattattcc aggtatcatc gtttggaacg tgtgggctca agctagagac tacaatgaat
+    14821 acctgtacac caaggcaggt agagaggagc ttgagcgtgt taacgtttaa gggcacatca
+    14881 aagttgaaaa tatacagtga ttatatcatg tctacaaaat ataacacagc atgactaaaa
+    14941 tggaattaat agtaaaaggc tatatctatt tctataaaga gcgagtctcc agtcttgaga
+    15001 ttatttggtt ctcttgtaga tcttgtcaaa gaaaacttgg aagacttcct tcttgaatcc
+    15061 cctgtcttct tctgtgtcag cgattctctt ctgcaattct ttgccgatgt tctcctcata
+    15121 agccttgtac ttcccggcaa tgtcgagctg gtcgaaaact tctttacatt tggcttcctt
+    15181 gtcggcatct ttgcgtccat agttttcatc caatatctgt ctctgttcgg ggctagccaa
+    15241 cctcaaagct tggttgatga cccaagaaca cttattatcc tggatgtcag ttccgatctt
+    15301 tccaatgtct tctggtttac caaaacaatc aaggtagtca tcttgaatct ggaagtattc
+    15361 acctagcgga atcaagatgt gctcagcctg ttgtagatct ttttcatggg taataccgct
+    15421 caggtacatt gccatcacaa ctggcaggta gaacgagtaa taagcagttt taaaaatgac
+    15481 aataaaagaa tgcttggctg gggtaaactt ggaaagatcg acgtggtctt ctggagcggt
+    15541 gatcaaatcc aacaattggc ctaactcagt ttggaaagtt acctcatgga gcagatccaa
+    15601 caagtcagca taataagatt ctttcttgaa gtacttgcgt aaaattttat agatagcacc
+    15661 ttctagcatg aaagagtcgt taatggcaat gtttcctaca ttttcaacct tgtaccaaca
+    15721 aggttggcct cttctggtga ttgactgatc catcatatca tcagcgacca ggaagtaggc
+    15781 ttgtagcaat tcgacacacc atcctaaaat agcagctttc ttgaactctt cggcacttaa
+    15841 ctcgtcccat gacttgtacc ccttgagaat gacataggtg tcgacaacag agatacctct
+    15901 gttgagtttt ccaccaggag tgttgtagtt caaggatctc ttgaaccagt tgattgcatc
+    15961 agcaggcatg ccgtaatttt ccagcatgac ttccagctca aacacgaggt ctggaaagaa
+    16021 cgcaaggaac ttcactttgt tcttagctgc tacttctttg gacatttgat ttctactagt
+    16081 tcgaaaggtg agaagaaaac acgagttaaa cgatgaacga gggtcgcgct tggtgtattt
+    16141 atggggcaag ttcgttgtag gctaaaagga ggagagtctt ccttaggctg aaatatgagg
+    16201 atattggcgg aaaaaggtca tggtttatga aatatatagt taatcgaagt ttctagaatg
+    16261 ttaattggca ttattcgggc aaaattagag gtctgtttgg ggaattaaaa ttgtctggct
+    16321 ttttaaatca taagttggca ccaaactaaa gtttagtgaa ggacagagtg caaattaata
+    16381 taaaaaatta acttatagtc aactaaacaa aaacatcttt cattcatctg ttatctcagg
+    16441 ctcagagtca tggttagact cagagtcctt tgaaggtttg gactctgaag atatgactaa
+    16501 ttcgttaatc tcctctacta tatcagaaat gtcattctct tcatctctgg gttcagtgtt
+    16561 tgtttggata tcctgctcaa tttctttggc caacttttca gaaagtgctt gggtttcgtc
+    16621 taaccctaat cctaatctat tctctttatg tttcttcgta gcttcctcaa ctaattgatc
+    16681 aaactcatct ctccaaccca gtaaatccac cagaagttct gcaactttat cacattcgtc
+    16741 ttggattacc acatcagagt cccttggatc agtttcaaat gtaccacatt tatctttgtt
+    16801 gataaggact ctaaggcaat ctttgcttac ctcagaaggt aacatagcaa atggaaatac
+    16861 cgttaaactt gttcctgcga caattgcaac gtcatattcc tcaatttctt cctcccacaa
+    16921 atcaaaaaac ctacggggaa gagattcgcc aaaaaacaca atatcaggct tcacataacc
+    16981 cttgcaatga cgacatgttg ggatcccctt tagagattta tccttcatat cttttctcag
+    17041 atctgcaatc gacattggtt tgtgacaatc aatacaatgg tttctggcaa aagagccatg
+    17101 tgcctccact atgtaatcat ctaaaacacc ggacaatctc tccagagcat cgatattctg
+    17161 tgtgtacacc cttcttaaca gcttcttgtc ttgcaatagt ctgataagaa aatggaattt
+    17221 cgtaggtaaa aatctcccag ggtaaagttc gtcagccaat gtgtaaaaag catgagggtt
+    17281 ttctctgaag tagttgatct caaataccgc ttcaggatgg ggaagattca aacgtgccaa
+    17341 attatgatat agtcctgttt ttggagatct gaagtctgga ataccagctc cagttgagat
+    17401 accagctcct gtcattaacg atatcttgac atttcctttt ttcaatcttt caaccaatgg
+    17461 ttgcaacgct tcttccattg ttctgttgct ttcctaaaac tctaggctaa atcttatcta
+    17521 cttgagcagt tagtatgtac cgcgatcctg aaagatgtta cctaatctga gaggtatgaa
+    17581 gtcccctttt gcatcagttc aagttagtgg caggttttct gctcagtttt cacttgcttg
+    17641 atctgccttg atcatctcaa ttgaaaaata tagtgattga ctgccaaaaa tgcaactgaa
+    17701 atccttcttt tccttccaat tgatcatcat atccttattt tggtgttaag atgttgtgta
+    17761 gtactctcaa ccaaaggacc aagtccatcc tgtttgccac ttttaacgag atctgtacca
+    17821 tagtaaactt ataatgaagg taagcagcac atatctgatc ggcagccatc cctggtgccc
+    17881 aatgaatcat gaattttttt agggctttta ctaactcgat cagcaacgta tttcagcttt
+    17941 ggatctcaag ctcatcgtct ctgagcttag tcattccata aagggttatc ggctacaaaa
+    18001 catatacagt atgattaaca acaataaatc gtatttgttc aaatttgcca ttccagactc
+    18061 caagaaaagc ttggtagttg aaagtggagt aaagcttcat cttactgact tccagcgacc
+    18121 cacaactcag caaccttcta atttcgtagt taaacttaga aagcacctga aagcaaaaag
+    18181 attgactaat ctgaaacaag ttggcgatga tagactggtt gtttttgaat tcagtgacgg
+    18241 aatgtactac ttggttttgg aatttttcag cggtggtaac gttatccttc ttgaccaaga
+    18301 ccagaaaatc atgactttgc aaagattagt gtctgaaaag gaaaataacg aaaaatatgc
+    18361 tacaggtgaa ttttataaca tgtttgatgc caaaaaatta tttagtgagg caccggccga
+    18421 tcatgccatc aagtcttact caaaggaaga tataattcaa tggttggata cacaggactt
+    18481 caaaattgaa caagctaaaa agactggtaa aacaatgaaa ccatacacaa ttcaaaagct
+    18541 tttatttgtc aatgcgccac atctttcgtc tgatttgatc catatcgttc ttagggagaa
+    18601 gggaatcgat ccaacatcgg atagtactct ctacagaagt gaagattcat tggctaaact
+    18661 gttagaatca ttagctgagg cggaaattcg tctctctgaa ttgttgacta gaaaggaaga
+    18721 tgttgatgga tatattgtca gtaaaaggaa cccaattcat gatccatcga ctgagggctc
+    18781 tctggagtac atctatgatg agtttcatcc ttatgagcca acccacaaga gatcttccga
+    18841 tacccagata aagaccatca aaggttataa caaaacgatt gatgactttt tcactacaat
+    18901 tgaggtttct aaacactcgt tgaaagaaca acagcaaaaa gtcaatgctg aaaggagact
+    18961 acagtctgta aaatcagaaa accttgaaaa gattgccaaa ttgactgaag ctcagcttct
+    19021 taatatacag aaaggtgagg tgattatggt ttatagcgat gttgttgaac aatgcaaagc
+    19081 cgctgtccag agtttacttg accagcaaat ggattggaat catattgaaa agttaattgg
+    19141 tgtggaaaag aaacgtggta atgagatagc gaagttaatc aacctaccgt tgaatttgct
+    19201 agagaataaa atatcattag ctctaccgtt ggttaatttc gatgaatcat cggaagaaga
+    19261 agatgaatct gattcagagg atgaaagcga tagcgaagat agcagctcaa gcgacgaaca
+    19321 agagactaag aacaagaaac aatcatcaac aaaacatagc aggaaaaagg acaaaaccat
+    19381 taatgtgaat atagatcttt ctttatcggc ctatgccaat gcttcgactt actttgatgc
+    19441 caagaagatt gcacaggata aacttgtcaa gactgagaag aatagtgagt tggcaatcaa
+    19501 gagcgccgaa tcaaaaatca atagagattt gaaaaaacag aagaaaaccg aatcttccca
+    19561 ggtcaataat tccaatgcag ctctcagaca aatcagagac aagttttggt ttgagaaata
+    19621 tttttggttt atttccagtg atggttttct ctgtgttgct ggacgtgatg accaacaatt
+    19681 tgatcacatc tactttgaat attttgacaa tgataacgat tttcttgtca gcaacgagct
+    19741 ggagggtgcg ctgaaagtta tcgttaagaa tccatttttg aacaaggatg ttgctccgaa
+    19801 cacttttatt caggctggag cattctccct atcaactaca aaggcttggg aaaacaaaat
+    19861 ggtgtcttct ccatggattg tgactggatc ttctgtttcc aagagagatg tggatggatc
+    19921 tgctttagcg cctggacttg tgaatattac aacagagaag cagttcttgc ctccctgtca
+    19981 aatggtcatg ggatttggaa tgttgtggct tggagacaag agaacaaatg atgattattt
+    20041 atcgaagagt cagtccagaa ctgaagaact tggtttggaa agtgtggatg ttaatgcttt
+    20101 taagaagaaa aagatcgaag aattgaaaac catgattgcc tctttatcca aatatgaaaa
+    20161 ggaactggaa aagaaacaga ttcaaaatga taaggagcct tcggttgata atgcagaaga
+    20221 agacagcaaa agcattgtta gttcgttgga aggcttggat atcaatgaga accagactca
+    20281 agttaaacgc ggtagaagag caaaactcaa aaagatcaaa cagaaatatg cggatcaaga
+    20341 tgaagaagat aaattaaaac gaatggagct tttgggtact ttgaaacaag tgcaagccca
+    20401 agaggatatc gaaagacagc cgtcaaagtc gaattcaacc aataccgctc aacagtcttc
+    20461 atcagcatcg aaagtgcaaa agaaaaaact tgctgagttg caccaattaa gaaaacttct
+    20521 agaagagttt gagtcaccag atgatgaaga agttgtccct gaactacact acacccaggt
+    20581 tttatcaacg gtgattagtt caccaaagaa aacagacacc atcgttgatg ctgtaccagt
+    20641 ttttgcacca tggtcctccc ttaataaact aaagtacaaa gtaaaagtac aaccgggaaa
+    20701 caataagaaa ggaaaatcag ttactgatgt tgtcgaatat ttcaaaaagc ttacacaaca
+    20761 gtttgccaaa gatgaagaag attggtttga caaagaagaa attatctcta ccattggaca
+    20821 gcaggatctt ttaatgccca ttacagttag taagctgaag gtagtatttc ccggctctca
+    20881 agacaaaaag ggaggtagca gtagcggtaa gacgaaatca aagggcaaga agaagaacta
+    20941 aagcgatcga tcgaacttgc tttactttct agctgtcagt atatatttta tgcacacata
+    21001 atcatttaaa ccttatttta ttaaaacccc tgttgtagac gatcagcaac cctggatcta
+    21061 gcaaatttga acgcattgaa cagcccttct tcactcagat cgatctttat ggagttttcc
+    21121 tcagttggtg ccttggaaac tctagcagca atgacagaag gatcagtctc caaaacaatt
+    21181 ccatcgtcta ttgtttcgtc aactgctaat gataccatat cgtagttttc ttggattgtc
+    21241 tttttatcaa tagagtactt gaggactatc tccaatgctc caacaagtcc ttgaagcaca
+    21301 ttgaacaaga agcattcatt ttcatttaaa cctccaacaa tgtagatgac aacgtctgaa
+    21361 aattctttgt acaccacggt tttattttca aagagaacga tatcaccgtt taccttgtgt
+    21421 gtcttctgaa agagagactt ttcaaactgg acctgctgtt tgggtctctg tgcaagggag
+    21481 tctgagtcct ctggggcgtg gggaggattg ctatatttta ccaaaaccct gtttccggtg
+    21541 ttatccagta ttatcacact atccaccgta taaagagaca catccgtagt cattttgcaa
+    21601 ggaacttgtt tagttagttg ggtaagtttt gatgtgtcct gtttggacgc gggacggaga
+    21661 agacgcgcga agagcagagg agagacttgt cgatgagtgt accagatcaa aaaataagga
+    21721 ttctaacttg gtgggcaggg ccgatcattc tgctatgagc atagtgaaat atctggcgta
+    21781 ctaaggcagc aaatcaagtt ataaagagat aaaaaatatt cagatagaag ctaagctcaa
+    21841 tgcctaaatc cagcttttat ttcagctatc ttcgaataac gataatacag gtaagtacta
+    21901 actttttatt atacatcttg ccccaattct aactctataa agcttttaaa gtcacaaggg
+    21961 tttgatagat gctccaatac cgttattgat gcactgacag ataccacaat ccggttttta
+    22021 ggccttcttt tggaaaaaac tgcgaaatat actgccagtc gtggagaatc cctggatgat
+    22081 gtccagatac aagatatctc tgaagcgcta acagagctca agataattac accttgtaac
+    22141 ctattagatc catatgatgt gtctccagat aaccttcaag gtattcaaaa ctttgaaagc
+    22201 tggttcatcg gcccgtaccc agatagggca aggcaagtgg ccaggccaag caaacaatac
+    22261 atagcggaag tcaatgagag tttagacccc agcacacagt tcaggtccaa aaacagaatc
+    22321 cctgaataca tgaacagttt taagaagcag gaagaacaaa tagataatac cggtgatttc
+    22381 cctctagatg aagactggat aagattcaat ctcagagtgg aactcaagag aaaccaagca
+    22441 catgattcta aactgaaaaa ttccgtgttg cagccgtata tttcaaatgt attggaggat
+    22501 gtgcagagaa aaaacggagt aaatggaaat ggttccacag acaaatatgc aaccaattac
+    22561 gatttcatta tcactggtcc aactccagac aaattaatgc aataccttcc ttatattaat
+    22621 agtgacgatg aggaagacga tgattcatac gaagaggaga atgaagattc cgaagaccag
+    22681 gatgaggatg atggtgaccg caacaatgaa cacaacaaaa atgacgaata tggcaatgaa
+    22741 aatcaaccag aacaaacgac tcccgatttt gattacgaag aacacaatga tgaagacgat
+    22801 aatcgacaaa aattaaagat tcgtctaaat atataaattc tatattacaa ctgcaccgac
+    22861 taagttacaa aaaaagtcat acgctataat tttctaccgg ccttgaactt ttgcttgggc
+    22921 tttctaatct tgttaaacat attcttcttc gtagctgctg gttcttcatc actctcatca
+    22981 ccaaagtcct catcattgtt agccttctta cctctcaaat acttgagttt atttctctgt
+    23041 cccttgacag gtccatttct tacagcctca acgtaagcgt cgattccaga agccttgtta
+    23101 tccaggaggt catcatcaat tttattgtta atgacgaatt ttccttcttg attggtacga
+    23161 aagcctgctt tggcagcaag gtctttcttg ctgaactttt taggcttgga ggaggagatg
+    23221 cgagccaagg tttgttgatc caaaagatcc agaggctcat ccttggattc tgtgatatac
+    23281 tgtcggcttt ttccgttact gggttcgtct tcatcaccat catcttctga atcttccgaa
+    23341 tcattgtaaa tggcatcttc gaatgcagag gtgaatccag tcttactctt tgccttggac
+    23401 ttttctggct cattgtctcc ttccactgcc ttcctctttt ctcgtctctt ggtcttctta
+    23461 atgttggcaa tcagtttcct gtcttcttct ggaattgcct gttcaactaa gtcggcgcca
+    23521 aactttctga ttagtctctc aaccatatgc ttcactttcg ttttgaagtt tcccctgtgt
+    23581 tcatgagacc acctcatcaa attggccaac aagtttggaa gattttcttt gacaacatca
+    23641 ctaggaagtg tgaggatgga tacttttaca aatcctaacg tagcgttgac aatttctctg
+    23701 ttcttggagg tcaagaacaa ttccactgta gatgagactt cattgagaag atctctatcc
+    23761 atatcattac gaaactcgta aaacaagtaa ctaatggcgt tgatggtagc tccaatcatg
+    23821 tgggcagttg aaccagcgag accagctgaa cacattgtga aatactctga aagggatgct
+    23881 tgtgtgtttg gagtgtctgg atccattcca ggaactttgg atgttatcac aacaccgcct
+    23941 ttttgcatcc taaaagccat agctttcagt acatcataag ctaatagcct cgacctttct
+    24001 ttgggatctt tgatagtgat aattacttct gagagtatgg atggaatgaa gtaaagatgg
+    24061 tcatctggta atattgggat caaacgaagc aaagcttgaa atctagcagc tttggcggga
+    24121 atgtgagttg tttcagcact gtcaataaac aaagattcga tttgtggcaa aaattgttct
+    24181 actgcgtttt ttccagattc agtttctagt agcctagcga tgatgcggta agatcgtttc
+    24241 tgaatcaaag aatcgtcaat tgcaaccgtt tgattaaaga tggacaggag ggcattgtat
+    24301 gaagattctg gaatgtactt aaccataacg acaatcaaat ccatcatagt aacactcaat
+    24361 cttggaattt cgcctgtgga gagtttctgg ttcggaagct tctttccgtc aagttgggct
+    24421 tgtgtaatgt ttttcttatc ttcctcaaga gcttgattta aatgtaaaca gacctttttg
+    24481 aacgaatcaa ccaaatcatc ttgcgaagaa atttgcagat aaggctcaat agtttctaag
+    24541 atgaatcctc gtaattctgg aactgtttga ctgaacacat tgaaaagaac agaaaggagt
+    24601 ttagagctca tcttggatag tacttcaatg ttggcagctg cggactcctt aggaaactgt
+    24661 tgttgaagaa gtttgtcttc agaaagagca ccagaactgt agaccagatt ggactcgact
+    24721 aaggacttga atgcctggca aatagtgaca cgcaactcca ccttggagta catcaaagac
+    24781 gctagctctg aagcaaactc atcgtcaaat tcagttggca tatcagttgg caaatcacag
+    24841 aaatgtggta gcagcgacca aatttgatca attatagtgg caaagatttt tgcatgtact
+    24901 gaatcacctg tggaagaggc aatcttttgt tcgaaaaact tgatcagcgg agcaagttgg
+    24961 gttttgaagt aggaaagatt ggcgtttctg acattgtccc taagtaaagg cagtaaccaa
+    25021 gctcttcctg tcttcttggg gctgtcaaga ttcaatggta atacactgag tacagcttcg
+    25081 gggcccaaag caccaattgc gctcccaatg acattgtcag cctcctgaat gtattggaag
+    25141 ttctgttcgt cagatctcca ggcacccaca atctccaaac agttaagaaa gtctggattg
+    25201 gctctagatc tcaacttgat aaaaatgcaa ctaattaggt tcaaaatgtc acttaaacaa
+    25261 tggttgtact taacagacaa tagggagttg acagcctcag ccaattgagt aatggattca
+    25321 tcaacacttt cgtacaactt aggagagata gggaactgtt ttgagggaat taataaagaa
+    25381 tcatcgtgga ttccctcagt gatgatggct ataaggcatt gggatgttga aatgcagatg
+    25441 ttctcagact cagaagaaaa gaactggatt attgtctgaa cgaagattgg aaatttctta
+    25501 ataaatctgg tttgattggc attagaatat gcagtagaag cttttgcgac aacagccaac
+    25561 caaggagcag cgagatgggt atcattcaca gaaggtttca aatccaaaat aatcttgatt
+    25621 accgagtcaa atttgtcgat actcaattca tcttcagaca ttgagttgaa gaggttttca
+    25681 aaggcttgaa aggcattggt gatgagaaat tgatctgatg atttggcaac ttcaagtaat
+    25741 agatcacaga ccaattcaat tctaacattt ggccacgagt ttgtgtttgt gatttgtgaa
+    25801 atcaattgaa ggcagtgaat gactgcagag ttggcggatc tatcttctga ctttcgcttg
+    25861 gacttttgaa gtctcattgt ctctattaat ttgtttgttg caaagtctgc acaatctaag
+    25921 gaacccggat gttctactga tggccccgga ggaggattag ataatatctt gcttatagcc
+    25981 tcctgtgctc ttcttctaac cttaggtctt gagtcaaggg ttaactccaa caatcccatc
+    26041 aaacctctct ttggggaaat attcatgcta gatgcgttct tccaagaagc caggtcttga
+    26101 gacaacaaca acgtttctaa aacaccaatg gaagatctaa tcaatggagc ttcagcttgt
+    26161 tcatttgtta tagcaggggc aatcttggtt aagatctctg caaaattgga tttcaacaaa
+    26221 gattttgggg tcagaggtgc caaaagatcc aggaagtatg ctgtagatag agccaaagca
+    26281 ttatcagtga tgatatcatc ttgaatacac ctgtccaata aagacatgaa ggatacaaag
+    26341 tatgttaccg cagttcttgg attattctgc tcttgaatgt tttcttcaac agccgataga
+    26401 atcagggcca tgtgcttctg attttccaat tttgagctgg catgaaccct gatcttggcc
+    26461 agtttcgcct ctaattcagg atcatagtct gacgtcatga gtgtagtgga tatcttgatg
+    26521 actgtgaatc aggagtttag gcaaacggta tcagagaagg gaaaggtttt agaaattttt
+    26581 ctaataaatt tttttaagct cttggaaaag aaataggaga acagagagtc acatgatatc
+    26641 cgagggcata agatccaacg tcttaacgtg cactgcacaa tatttgaccc caaaattttt
+    26701 ctcctactaa acaacctcag catcactgaa taaacgcaat gaagggcagc gtcagaataa
+    26761 gattggccag atttggcaga aaaagacaac ctgtctacaa cgtggtggtg gcgaaagcaa
+    26821 gatctgcaag agattcacaa ccgattgaag tcataggcac ctacaacccc attgctcccc
+    26881 ctctatctcc agaacaaaag cttcaaggac tggttccgac aaaagacata caactcgact
+    26941 ttcaaaaatc caagtattgg ctttccgttg gtgcccagcc aacgcccacc attatcaggc
+    27001 tttttaaaaa agctggaata ttaccaagtg aatggcctag cacccgagtc ggcccaattg
+    27061 tgccagaaag agaagtcata caggaaaaaa aagatttgta aacgatcgac gaaaagaaac
+    27121 tctctgtaaa tagaaatgaa aagcaacatg acctgacctt ctgtatgcat accatacccc
+    27181 taaccccttt cgtactgcga aatggagctg tctttccctg gcactgtgta atctcggagt
+    27241 tttatggatt atttcctaat caggctaaga ataatttaat atgtcgtgtc acattgcttt
+    27301 gtgcgaaaaa gacgcgattt taaagtgttc cctaatccct tcctcttgcc actattttta
+    27361 cttcataccc acttctaacc ggtgtagaga acatttctat ccagctgtca gcatcacatt
+    27421 ttgactcttg ctctgataaa ttgcaaattt gaagccaagt gacttttttc ctcccctctt
+    27481 tttggctaat tttcattgtt cacctcgttt agtggttatc actcattcaa catgaagacg
+    27541 ctaaaaccac agcttcacat ccatattaat aacaaccaga aggcgatcgg ggttgactct
+    27601 ttcaagactc ctgttgaaca gacactacag acaccttcaa atccccccaa tcacgctgga
+    27661 ggaagtagtt tctttccttc tacagctggt gatccgggct tagatagtgg gtttcaaact
+    27721 ccctacaacg gtagcagaaa cgcgtctgcg atatcgatag ggatttccaa agagcaccca
+    27781 agttatcaga acgatggaat ggatttggac gatattgaga ggccgtttcc ccttacaaag
+    27841 tgctcttcag tctcctccat ggcctcatcg ataatggctg aaacagagcc attgattaac
+    27901 aatatcgaat ttgaagaacg ttttgacatg cttctatctg aaatttacat gagctactca
+    27961 atgaatccag aaactactcc ctttaacatt aggtttcctc ccggaggggt catttcaatg
+    28021 gtgtctaagg acgtttttga tagatgtctg aaagataaga tcccattgga cagaaatccc
+    28081 gcaataaacc atgaattgtt ttccactagg gagccatctg tggtacttgc tatcatccgt
+    28141 aaacggttac tagatttctg taaccgaaac atggacgcgg actctcaata cagtctatcc
+    28201 cggcaaaatt cggcctgttc aattaatttc cctcaaactt cacaagcccc cttctctgca
+    28261 ggatcatcat tctcatctaa tgcatcgacc tcaagcacaa cacaggcgcc taaaatgcaa
+    28321 cgtggaaagc cttcgtggct acacagtaat ctcaattcaa gaacaatctc tagtacagat
+    28381 tcgttggttg atagcgtctc cccacagttt tataaaaaca agaagagtaa tgcaggattc
+    28441 acgatggtta ctcccccctc ttcttctcaa ggagcaggct catttgtgga cgagttcagt
+    28501 tttgaaagga aggagcgatc gaacaactcg acaacgtcta gcaatgtgac tggaattgca
+    28561 agcgcgggtc agggaagaat ccagcctcag gtattgtctg ttccatttaa cgtgccttca
+    28621 accactagcc ctcaatttgc gagtccaata tttacaggaa gctcggatgg agttccagtt
+    28681 cttcaatcac ctttccacga aaagggctcc tattttggga acaacactct atctgcaggc
+    28741 actaccaagc ctccgaatac cactaggaag tcttcgctca gtaacgttat caatgctgga
+    28801 agtgtttctg cactgaaaga cccattagat cttgatttgg acccgttata caacgttaca
+    28861 tctcaaagaa aacgagattc gctcaagctt aaacgaaact tgaggtaggc aggctggtcc
+    28921 tagcttttta tagtttaata gtatgtcttt acccgagagt aattcaccct ctactccaca
+    28981 tccttatgta agcccacacg gttatatgtc acgataagct aggcgagaaa cggaaacggg
+    29041 ttcggatcag tgtgcgcgaa gattatatac atgtaatcat tagatagatg ccacatattt
+    29101 catcactcat taatatgaca tcatatcgtt acacagtatt actgttataa aggcctagtg
+    29161 gatgtccctg aattggggct tttgtgtcgg aaagaaaaaa ctctattcca tggctctatt
+    29221 atagatgacg gagtcaatag tcgctagcgt tccgaaacca ttcggtgtaa ccaaatttag
+    29281 agtgaagaat cgctcgtcct tggaagttcc aatctatgat tcttcgattg gagaatccaa
+    29341 aaggtattcc tgtgtcaagt gtcgcaagct gaagaagaaa tgttccagag agttcccaga
+    29401 atgtgcaact tgcacaatgt ctggcactta ctgtagatat actgagagga agaaacgcag
+    29461 aactcagtca atggcatcgc caagcgtgaa agcttcctct ctctctcccg ccaccttcag
+    29521 gcctagggag gaaccaaatt atgtgcttag tagcacagac aaaaagttga ataacacgtt
+    29581 cgggccagaa gagaaggcta cgtcgcctta tcccactcgt attcacctgc cccctataga
+    29641 taccctcaaa ttctcaagtt cattggatgt actccaatgt aagttgttgt ccaattcttt
+    29701 caatatttcc tcaaacggat caagctactc aattattcct gttcacttga ctacaaagta
+    29761 tttcgaagcc ttccagagct ttcaggagca ggctggcacc ttcattactt gcgacgacat
+    29821 caagtcaagt gaagctaact ctcattacac gctggcaaac gataaaaatt tggtttgcaa
+    29881 gtttaatcta gttgtcgcca ttggagcaac tttcctctct cactcccaac ataacatgct
+    29941 ttcttttgaa gaacacaaat tgggcacaag tgcccgggaa aatgccttgg agctgatttc
+    30001 caaggaaaat ctcatatcta aagataccct accaatcact gagattctaa ttctaatcac
+    30061 gttgtatacc tgcctcgaga gggatccatc actgtcttgg aatttgattg gaatgaccac
+    30121 taggaattct ctgttgatga acctaaaccg caactctggt gactctgaat atagccagcg
+    30181 attattttgg agttgttaca atcttgatag actgatttca ttctccctga ttcaacctgt
+    30241 tgcactagag gatgcttaca tcaatattcc aatgatagac cacgaacagt tcataagaat
+    30301 aacttcactg agagtcctgg aaggaaaggt tttgaaaaag attcatggtc tttccaagtc
+    30361 tggtggttct gaacttgtca cagagctcag aggattagtt gatcggtatg acgaagtcat
+    30421 caccgaatat tccaaagatc aactggcctc cagcaattcc aaattgtggt tccttgcaga
+    30481 atactaccat ctagtgttgt tactttatta tccctcacag ctagactcaa cgccttcaaa
+    30541 gttccaaatg gagactctgg cttccgtctg ttccaaattt cttccctgca tctacaacct
+    30601 gcaagttacc aaagtgctct tatacaactg gatcagtttt tacagagtac ttagtctact
+    30661 ctctgctcat ctttactgtg tagatcacgg tgcttctcag ttatcggata gcagtattgc
+    30721 aaagtattcg tcactccttc aaggctacgt gaaatcatgg ccatttacca cggacttgat
+    30781 taagatcgtg gaatccctac ctaaaatgtt acctaatgaa gccttgactt cctacaaaca
+    30841 attgttaaag caacattcta taagaataag caacattctg taaggatcaa ctagctttcc
+    30901 aacaaccaag gtctttcgtt ccagaacccc tcattaataa tgtctatgtg atatttttgt
+    30961 attttagctt ttctgaattt ttttcgtagt ctatcctttt gcctctttga taattctctt
+    31021 tcgttcagac tcggctggtc atccttaagt tcccactctc ggatc
+//
