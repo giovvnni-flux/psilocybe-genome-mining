@@ -1,0 +1,125 @@
+especie,contig,tipo,inicio,fin,categoria
+cordyceps_militaris,CP023328.1,T1PKS,1604823,1672339,PKS (policétidos)
+cordyceps_militaris,CP023327.1,T1PKS,0,57887,PKS (policétidos)
+cordyceps_militaris,CP023327.1,terpene-precursor,2321009,2352398,Terpenos
+cordyceps_militaris,CP023327.1,T1PKS,2407367,2474117,PKS (policétidos)
+cordyceps_militaris,CP023326.1,"NRPS, T1PKS",12530,85130,PKS (policétidos)
+cordyceps_militaris,CP023326.1,isocyanide-nrp,324387,404196,Otro
+cordyceps_militaris,CP023326.1,NRPS,1020043,1084292,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023326.1,NRPS,1246361,1310651,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023326.1,terpene,2869617,2900685,Terpenos
+cordyceps_militaris,CP023322.1,terpene,184497,216796,Terpenos
+cordyceps_militaris,CP023322.1,NRPS-like,860080,923940,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023322.1,NRPS,1576864,1640579,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023325.1,"NRPS, T1PKS",1171632,1259181,PKS (policétidos)
+cordyceps_militaris,CP023325.1,indole,1782499,1817424,Otro
+cordyceps_militaris,CP023325.1,terpene,2645222,2676332,Terpenos
+cordyceps_militaris,CP023325.1,isocyanide,2953155,3015268,Otro
+cordyceps_militaris,CP023325.1,"NRP-metallophore, NRPS",3025949,3107372,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023325.1,T1PKS,3679751,3747299,PKS (policétidos)
+cordyceps_militaris,CP023325.1,terpene,3815530,3846699,Terpenos
+cordyceps_militaris,CP023325.1,"NRPS, T1PKS",4446387,4534765,PKS (policétidos)
+cordyceps_militaris,CP023325.1,"T1PKS, NRPS",5695472,5773640,PKS (policétidos)
+cordyceps_militaris,CP023323.1,T1PKS,1033495,1101128,PKS (policétidos)
+cordyceps_militaris,CP023323.1,NRPS,1336981,1410349,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023323.1,terpene-precursor,1562663,1593766,Terpenos
+cordyceps_militaris,CP023323.1,"terpene-precursor, terpene",2103768,2161930,Terpenos
+cordyceps_militaris,CP023323.1,NRPS-like,3261608,3325469,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023323.1,NRPS,4080597,4145469,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023323.1,T1PKS,4317138,4384354,PKS (policétidos)
+cordyceps_militaris,CP023323.1,fungal-RiPP,5439168,5498373,Otro
+cordyceps_militaris,CP023323.1,T1PKS,5781598,5850010,PKS (policétidos)
+cordyceps_militaris,CP023324.1,"NRPS, T1PKS",180426,281267,PKS (policétidos)
+cordyceps_militaris,CP023324.1,terpene,1510239,1541807,Terpenos
+cordyceps_militaris,CP023324.1,NRPS,4288433,4353860,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023324.1,NRPS,4716779,4780580,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023324.1,"NRPS, T1PKS",6126345,6198673,PKS (policétidos)
+cordyceps_militaris,CP023324.1,NRPS-like,6824266,6887628,NRPS (péptidos no ribosomales)
+cordyceps_militaris,CP023324.1,NAPAA,6975955,7025025,Otro
+yarrowia_lipolytica,NC_006067.1,terpene,1001171,1032509,Terpenos
+yarrowia_lipolytica,NC_006070.1,terpene-precursor,2090370,2121354,Terpenos
+yarrowia_lipolytica,NC_006071.1,terpene-precursor,626302,657337,Terpenos
+yarrowia_lipolytica,NC_006072.1,terpene,661449,693678,Terpenos
+komagataella_phaffii,CP014715.1,terpene-precursor,1976274,2007339,Terpenos
+komagataella_phaffii,CP014716.1,terpene,707850,740016,Terpenos
+komagataella_phaffii,CP014717.1,terpene-precursor,1930339,1961350,Terpenos
+aspergillus_oryzae,NC_036435.1,T1PKS,114247,241057,PKS (policétidos)
+aspergillus_oryzae,NC_036435.1,terpene-precursor,250812,282110,Terpenos
+aspergillus_oryzae,NC_036435.1,T1PKS,321081,389315,PKS (policétidos)
+aspergillus_oryzae,NC_036435.1,T3PKS,2253762,2314185,PKS (policétidos)
+aspergillus_oryzae,NC_036435.1,betalactone,3151942,3197763,Otro
+aspergillus_oryzae,NC_036435.1,indole,3550060,3581868,Otro
+aspergillus_oryzae,NC_036435.1,NRPS,3736891,3802098,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036435.1,"T1PKS, NRPS-like",3820160,3918400,PKS (policétidos)
+aspergillus_oryzae,NC_036435.1,T1PKS,4249588,4317775,PKS (policétidos)
+aspergillus_oryzae,NC_036435.1,NRPS-like,4575611,4646376,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036436.1,"NRPS, NRPS-like",0,55587,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036436.1,NRPS,62484,127411,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036436.1,"NRPS, terpene-precursor, T1PKS",608747,764003,PKS (policétidos)
+aspergillus_oryzae,NC_036436.1,"terpene, T1PKS",952336,1039270,PKS (policétidos)
+aspergillus_oryzae,NC_036436.1,"T1PKS, NRPS-like",1264208,1374657,PKS (policétidos)
+aspergillus_oryzae,NC_036436.1,NRPS-like,4624854,4688437,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036436.1,NRPS-like,6192299,6255365,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036437.1,"terpene, NRPS-like",172443,252235,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036437.1,"NI-siderophore, terpene",732489,785320,Terpenos
+aspergillus_oryzae,NC_036437.1,terpene,1059519,1089981,Terpenos
+aspergillus_oryzae,NC_036437.1,T1PKS,1098363,1163810,PKS (policétidos)
+aspergillus_oryzae,NC_036437.1,NRPS,1356058,1430399,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036437.1,T1PKS,2261903,2328906,PKS (policétidos)
+aspergillus_oryzae,NC_036437.1,"NRPS, terpene",3459599,3523616,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036437.1,"NRPS, terpene",4008631,4071847,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036437.1,T1PKS,4666779,4734262,PKS (policétidos)
+aspergillus_oryzae,NC_036437.1,"T1PKS, indole",5062129,5123684,PKS (policétidos)
+aspergillus_oryzae,NC_036438.1,terpene-precursor,1440540,1471775,Terpenos
+aspergillus_oryzae,NC_036438.1,terpene,1725123,1762065,Terpenos
+aspergillus_oryzae,NC_036438.1,terpene,2862140,2894545,Terpenos
+aspergillus_oryzae,NC_036438.1,T1PKS,3007794,3074445,PKS (policétidos)
+aspergillus_oryzae,NC_036438.1,NRPS,3234837,3303873,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036438.1,terpene-precursor,3540628,3571739,Terpenos
+aspergillus_oryzae,NC_036438.1,NRPS,3586581,3653693,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036438.1,indole,3655507,3686848,Otro
+aspergillus_oryzae,NC_036438.1,T1PKS,4078474,4145764,PKS (policétidos)
+aspergillus_oryzae,NC_036438.1,terpene,4161908,4192945,Terpenos
+aspergillus_oryzae,NC_036438.1,terpene,4312027,4343073,Terpenos
+aspergillus_oryzae,NC_036438.1,terpene,4728536,4761082,Terpenos
+aspergillus_oryzae,NC_036439.1,T1PKS,153923,237433,PKS (policétidos)
+aspergillus_oryzae,NC_036439.1,terpene,275304,305671,Terpenos
+aspergillus_oryzae,NC_036439.1,indole,759848,791289,Otro
+aspergillus_oryzae,NC_036439.1,T3PKS,828576,889901,PKS (policétidos)
+aspergillus_oryzae,NC_036439.1,T1PKS,918434,984509,PKS (policétidos)
+aspergillus_oryzae,NC_036439.1,terpene,1738451,1770735,Terpenos
+aspergillus_oryzae,NC_036439.1,T3PKS,2555020,2616344,PKS (policétidos)
+aspergillus_oryzae,NC_036439.1,"NRPS, indole",2713119,2778375,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036439.1,terpene-precursor,2814767,2846485,Terpenos
+aspergillus_oryzae,NC_036439.1,fungal-RiPP,4081578,4137471,Otro
+aspergillus_oryzae,NC_036439.1,terpene-precursor,4424684,4459401,Terpenos
+aspergillus_oryzae,NC_036439.1,T1PKS,4500067,4533889,PKS (policétidos)
+aspergillus_oryzae,NC_036440.1,indole,457191,488509,Otro
+aspergillus_oryzae,NC_036440.1,NRPS,848834,920798,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036440.1,NRPS-like,1185157,1248286,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036440.1,"terpene, T1PKS, isocyanide",1315622,1455404,PKS (policétidos)
+aspergillus_oryzae,NC_036440.1,"NRPS-like, NRPS",2136225,2223034,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036440.1,"terpene, T3PKS",2325964,2394039,PKS (policétidos)
+aspergillus_oryzae,NC_036440.1,NRPS,2602285,2678300,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036440.1,T1PKS,3072283,3140623,PKS (policétidos)
+aspergillus_oryzae,NC_036440.1,NRPS-like,3264047,3326935,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036440.1,"terpene, T1PKS",3401479,3485492,PKS (policétidos)
+aspergillus_oryzae,NC_036440.1,nitropropanoic_acid,3573941,3591897,Otro
+aspergillus_oryzae,NC_036441.1,T1PKS,3836,71492,PKS (policétidos)
+aspergillus_oryzae,NC_036441.1,"NRPS, terpene-precursor",91831,188574,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036441.1,terpene,277745,308902,Terpenos
+aspergillus_oryzae,NC_036441.1,terpene,388402,419767,Terpenos
+aspergillus_oryzae,NC_036441.1,NRPS-like,799518,862899,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036441.1,terpene,1029545,1060095,Terpenos
+aspergillus_oryzae,NC_036441.1,terpene,1159053,1190121,Terpenos
+aspergillus_oryzae,NC_036441.1,"indole, terpene",1874621,1910234,Terpenos
+aspergillus_oryzae,NC_036441.1,T1PKS,2749104,2814405,PKS (policétidos)
+aspergillus_oryzae,NC_036442.1,"terpene, NRPS",313729,392616,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036442.1,"NRPS, T1PKS",659368,735911,PKS (policétidos)
+aspergillus_oryzae,NC_036442.1,NRPS,803563,869335,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036442.1,NRPS-like,2024164,2087391,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036442.1,"NRPS-like, T1PKS",2213649,2333362,PKS (policétidos)
+aspergillus_oryzae,NC_036442.1,NRPS-like,2396468,2459772,NRPS (péptidos no ribosomales)
+aspergillus_oryzae,NC_036442.1,terpene,2845397,2877007,Terpenos
+aspergillus_oryzae,NC_036442.1,T1PKS,3071937,3139728,PKS (policétidos)
+aspergillus_oryzae,NC_036442.1,T1PKS,3246010,3312476,PKS (policétidos)
