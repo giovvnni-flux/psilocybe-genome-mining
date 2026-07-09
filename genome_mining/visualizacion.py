@@ -80,3 +80,28 @@ def graficar_cluster(coordenadas, titulo, productos=None, ruta_salida=None):
         print(f"Gráfico guardado en: {ruta_salida}")
 
     plt.show()
+
+def graficar_comparacion_especies(tabla_pivote, ruta_salida=None):
+    """
+    Genera un gráfico de barras apiladas comparando la cantidad de
+    clusters biosintéticos por categoría, entre especies.
+    """
+    columnas_categorias = [c for c in tabla_pivote.columns if c != "total"]
+    colores = ["#4C72B0", "#DD8452", "#55A868", "#8172B2"]
+
+    fig, ax = plt.subplots(figsize=(10, 5))
+    tabla_pivote[columnas_categorias].plot(
+        kind="barh", stacked=True, ax=ax, color=colores[:len(columnas_categorias)]
+    )
+
+    ax.set_xlabel("Número de clusters detectados")
+    ax.set_ylabel("")
+    ax.set_title("Clusters biosintéticos detectados por antiSMASH, por especie")
+    ax.legend(title="Categoría", bbox_to_anchor=(1.02, 1), loc="upper left")
+    plt.tight_layout()
+
+    if ruta_salida:
+        plt.savefig(ruta_salida, dpi=150, bbox_inches="tight")
+        print(f"Gráfico guardado en: {ruta_salida}")
+
+    plt.show()

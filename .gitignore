@@ -10,3 +10,9 @@ __pycache__/
 ncbi_dataset.zip
 psilocybe_penvy/
 blast_db/
+datos/
+resultados/*/antismash/*.gbk
+resultados/*/antismash/*.zip
+resultados/*/antismash/css/
+resultados/*/antismash/js/
+resultados/*/antismash/images/

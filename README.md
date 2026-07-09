@@ -1,66 +1,89 @@
-# Genome Mining: Cluster Biosintético de Psilocibina en *Psilocybe cubensis*
+# Genome Mining en hongos: de clusters conocidos a descubrimiento computacional
 
-Proyecto de bioinformática enfocado en la identificación y visualización computacional del cluster de genes responsable de la biosíntesis de psilocibina en *Psilocybe cubensis* (cepa P.envy), usando datos genómicos públicos.
+Pipeline modular y reproducible para identificar clusters de genes biosintéticos (BGCs) en genomas fúngicos, usando dos enfoques complementarios: búsqueda dirigida por homología (BLAST) para rutas metabólicas ya caracterizadas, y descubrimiento computacional (antiSMASH) para detectar clusters candidatos sin conocimiento previo.
 
-## Contexto
+## Organismos analizados
 
-La psilocibina es un compuesto psicoactivo con investigación farmacológica activa (terapia para depresión y PTSD). Su ruta biosintética fue descrita por primera vez por Fricke et al. (2017), identificando cuatro enzimas clave codificadas en un cluster génico compacto. Este proyecto reproduce y extiende ese hallazgo usando el genoma de referencia de alta calidad publicado por McKernan et al. (2021).
+| Especie | Método | Resultado |
+|---|---|---|
+| *Psilocybe cubensis* | BLAST dirigido | Cluster de psilocibina confirmado (PsiD/H/K/M + psiT2), 5 genes en ~14 kb |
+| *Cordyceps militaris* | BLAST dirigido + antiSMASH | Cluster de cordicepina confirmado (Cns1-4) + 37 clusters adicionales detectados |
+| *Yarrowia lipolytica* | antiSMASH (descubrimiento) | 4 clusters candidatos (terpenos), sin match en MIBiG |
+| *Komagataella phaffii* | antiSMASH (descubrimiento) | 3 clusters candidatos (terpenos), sin match en MIBiG |
+| *Aspergillus oryzae* | antiSMASH (descubrimiento) | 80 clusters candidatos (PKS, NRPS, terpenos) |
 
-## Objetivo
+![Comparación de especies](resultados/comparacion_especies.png)
 
-1. Confirmar computacionalmente la presencia y ubicación del cluster biosintético de psilocibina en el genoma de referencia
-2. Verificar la agrupación física (sintenia) de los genes involucrados
-3. Visualizar el cluster con sus coordenadas genómicas reales
+## Motivación
+
+Cuando ya se conoce la ruta biosintética de interés (ej. psilocibina), se puede localizar el cluster comparando el genoma contra secuencias de referencia publicadas. Pero para explorar organismos con metabolismo secundario poco caracterizado, se necesita un enfoque de descubrimiento: antiSMASH escanea el genoma completo buscando patrones de dominios (PKS, NRPS, terpeno sintasas) sin requerir un gen objetivo predefinido.
+
+Este proyecto implementa ambos enfoques en una arquitectura reutilizable, validada en 5 organismos con distinta relevancia biotecnológica: uno psicoactivo de interés farmacológico, uno productor de metabolitos con potencial terapéutico, dos chasis industriales de biología sintética, y uno de uso gastronómico milenario (koji).
+
+## Arquitectura
+
+genome_mining/
+├── descarga.py         # Descarga genomas de NCBI por accession
+├── blast_utils.py      # BLAST dirigido contra secuencias de referencia
+├── visualizacion.py     # Extracción de coordenadas y gráficos de clusters
+└── pipeline.py         # Orquestador: analizar_especie(), agregar_especie()
+config/
+└── especies.yaml       # Definición de especies y genes de referencia
+notebooks/
+└── analisis_psilocybe.ipynb   # Análisis narrado paso a paso
+resultados/
+└── {especie}/antismash/       # Reportes de antiSMASH por especie
 
 ## Metodología
 
-1. **Obtención de datos**: descarga del genoma anotado de *P. cubensis* cepa P.envy (NCBI RefSeq, accession `GCF_017499595.1`), ensamblado con PacBio HiFi a nivel de cromosoma
-2. **Secuencias de referencia**: descarga de las secuencias de proteína de PsiD, PsiH, PsiK y PsiM desde UniProt (accessions P0DPA6–P0DPA9)
-3. **Búsqueda de homología**: BLASTP de las secuencias de referencia contra el proteoma completo del genoma descargado
-4. **Extracción de coordenadas**: localización de las posiciones genómicas exactas de los genes identificados en el archivo de anotación GFF3
-5. **Visualización**: representación gráfica del cluster con matplotlib, mostrando posición, tamaño y orientación de cada gen
+### Enfoque 1: BLAST dirigido (cuando se conoce el gen de interés)
+1. Descarga del genoma anotado desde NCBI
+2. Descarga de secuencias de referencia desde UniProt
+3. BLASTP contra el proteoma completo
+4. Extracción de coordenadas desde GFF3 (considerando múltiples exones)
+5. Visualización del cluster con orientación de hebra
 
-## Resultados
-
-Se confirmó la presencia de un cluster de 5 genes en una región de ~14 kb del contig `NC_063008.1`:
-
-| Gen | Función | Posición | Hebra |
-|---|---|---|---|
-| PsiK | Kinasa | 1,663,425–1,667,194 | + |
-| PsiH | P450 monooxigenasa | 1,667,511–1,669,282 | + |
-| psiT2 | Transportador MFS | 1,671,937–1,672,379 | − |
-| PsiM | Metiltransferasa | 1,673,493–1,675,081 | − |
-| PsiD | Descarboxilasa | 1,676,182–1,677,607 | − |
-
-Todos los matches por BLAST fueron de 100% de identidad contra las secuencias de referencia, confirmando su identidad exacta. Adicionalmente al enzimas biosintéticas descritas originalmente, se identificó un gen transportador (psiT2) dentro de la misma región, coherente con reportes posteriores que amplían la definición del cluster.
-
-![Cluster de psilocibina](cluster_psilocibina.png)
-
-## Estructura del repositorio
-
-psilocybe-genome-mining/
-├── scripts/
-│   ├── explorar_genoma.py         # Exploración inicial del ensamblaje
-│   ├── descargar_referencias.py   # Descarga de secuencias de referencia desde UniProt
-│   └── visualizar_cluster.py      # Generación del diagrama del cluster
-├── referencias_psilocibina.fasta  # Secuencias de referencia (PsiD/H/K/M)
-├── resultados_blast.tsv           # Resultados del análisis BLAST
-├── cluster_psilocibina.png        # Visualización final
-└── README.md
+### Enfoque 2: antiSMASH (descubrimiento sin conocimiento previo)
+1. Descarga de genoma + anotación GFF3
+2. Limpieza de features incompatibles (`limpiar_gff_para_antismash`)
+3. Ejecución vía Docker: `antismash/standalone`, taxón fungi, anotación génica provista
+4. Parseo de resultados JSON para tablas comparativas
 
 ## Requisitos
 
 ```bash
-pip install biopython pandas matplotlib seaborn requests
+pip install biopython pandas matplotlib seaborn requests pyyaml jupyter
 ```
 
-También requiere BLAST+ instalado localmente (`brew install blast` en macOS) y la herramienta `datasets` de NCBI para descarga de genomas.
+- BLAST+: `brew install blast`
+- Docker Desktop + imagen antiSMASH: `docker pull antismash/standalone`
+- NCBI Datasets CLI (descarga de genomas)
+
+## Uso
+
+```python
+from genome_mining.pipeline import analizar_especie, agregar_especie
+
+# Agregar una especie nueva (busca automáticamente el mejor accession)
+agregar_especie(
+    nombre_cientifico="Nombre científico",
+    genes_interes={"GenA": "UNIPROT_ID", ...}  # opcional
+)
+
+# Correr el análisis dirigido completo
+coordenadas = analizar_especie("nombre_especie")
+```
+
+Para antiSMASH, ver comandos Docker en `notebooks/`.
+
+## Limitaciones y notas honestas
+
+- La selección automática de accession por mejor N50 no siempre coincide con la cepa exacta usada en la literatura (validado con identidad >95% en vez de 100% para Cordyceps).
+- antiSMASH con `--taxon fungi` requiere anotación GFF3/GenBank real; no acepta predicción automática de genes (Prodigal) para eucariontes.
+- Los clusters "sin match en MIBiG" son candidatos computacionales, no confirmados experimentalmente.
 
 ## Referencias
 
 - Fricke, J. et al. (2017). Enzymatic synthesis of psilocybin. *Angewandte Chemie*.
 - McKernan, K. et al. (2021). A draft reference assembly of the *Psilocybe cubensis* genome. *F1000Research*.
-
-## Nota
-
-Este proyecto es de naturaleza estrictamente bioinformática/computacional (análisis de secuencias públicas). No involucra cultivo, síntesis, ni manipulación del organismo.
+- Blin, K. et al. (2023). antiSMASH 7.0: new and improved predictions for detection of secondary metabolite biosynthesis gene clusters. *Nucleic Acids Research*.
