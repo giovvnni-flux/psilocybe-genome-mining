@@ -22,17 +22,17 @@ Este proyecto implementa ambos enfoques en una arquitectura reutilizable, valida
 
 ## Arquitectura
 
-genome_mining/
-├── descarga.py         # Descarga genomas de NCBI por accession
-├── blast_utils.py      # BLAST dirigido contra secuencias de referencia
-├── visualizacion.py     # Extracción de coordenadas y gráficos de clusters
-└── pipeline.py         # Orquestador: analizar_especie(), agregar_especie()
-config/
-└── especies.yaml       # Definición de especies y genes de referencia
-notebooks/
-└── analisis_psilocybe.ipynb   # Análisis narrado paso a paso
-resultados/
-└── {especie}/antismash/       # Reportes de antiSMASH por especie
+**genome_mining/**    
+├── descarga.py    # Descarga genomas de NCBI por accession    
+├── blast_utils.py    #BLAST dirigido contra secuencias de referencia    
+├── visualizacion.py    # Extracción de coordenadas y gráficos de clusters    
+└── pipeline.py    # Orquestador: analizar_especie(), agregar_especie()    
+**config/**    
+└── especies.yaml    # Definición de especies y genes de referencia    
+**notebooks/**    
+└── analisis_psilocybe.ipynb    # Análisis narrado paso a paso    
+**resultados/**    
+└── {especie}/antismash/    # Reportes de antiSMASH por especie
 
 ## Metodología
 
